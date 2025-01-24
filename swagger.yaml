@@ -56,10 +56,38 @@ paths:
                   value: '{
   "CustomerBases": [
     {
-      "AccountNumber": 25156,
-            "CustomerId": "custidd"
+        "AccountNumber": 84066648,
+        "CustomerId": "lrht19co"
+    },
+    {
+        "AccountNumber": 99860079,
+        "CustomerId": "oj5pa98z"
+    },
+    {
+        "AccountNumber": 15296985,
+        "CustomerId": "om1amu8l"
+    },
+    {
+        "AccountNumber": 56150153,
+        "CustomerId": "2yb364no"
+    },
+    {
+        "AccountNumber": 89720649,
+        "CustomerId": "wxvf82qu"
+    },
+    {
+        "AccountNumber": 99091328,
+        "CustomerId": "al0p0msx"
+    },
+    {
+        "AccountNumber": 61630696,
+        "CustomerId": "2gytg50m"
+    },
+    {
+        "AccountNumber": 88240759,
+        "CustomerId": "ixx29qq7"
     }
-  ],
+],
   "Result": true,
   "ErrorCode": null,
   "ErrorMessage": null
@@ -295,79 +323,582 @@ paths:
   "Customer": null,
   "Customers": [
     {
-      "Id": "1525",
-      "CustomerId": "Custiddddddddddd",
-      "BranchNumber": "BR111111111",
-      "Name": "Shreyashi Expert",
-      "Contacts": [
-        {
-          "Title": null,
-          "FirstName": "Fname Shrey",
-          "MiddleName": null,
-          "LastName": "Lname SSSS",
-          "Suffix": null,
-          "PrimaryEmailAddr": "sshhjjlkemail@abc.com",
-          "Cc": null,
-          "Phone": "1111111111",
-          "PhoneExt": null,
-          "PhoneType": "Home",
-          "Fax": null
-        }
-      ],
-      "BillingAddress": {
-        "Address1": "Address 1 PTSssssssss",
-        "Address2": "addr 2 Andamannnnn",
-        "Address3": "addr 3 ludhiana ",
-        "Address4": "addr 4 singh is king",
-        "Address5": "addr 5  srk",
-        "City": "Bangaloreeeee",
-        "State": "KTTTT",
-        "PostalCode": "222222",
-        "Country": "Indiaaaaa",
-        "Note": "Noteeeeee",
-        "Latitude": 2,
-        "Longitude": 5
-      },
-      "Notes": null,
-      "CurrentBalance": 0,
-      "CreditLimit": 4500,
-      "StartCode": null,
-      "TaxClass": null,
-      "TaxGroup": null,
-      "TaxLicenseNumber": null,
-      "IsActive": true,
-      "IsCommercial": false,
-      "RunCode": 0,
-      "Locations": [
-        {
-          "Id": null,
-          "LocationNumber": 1,
-          "Name": "Shop nameeeeee",
-          "DeliveryAddress": {
-            "Address1": "Address 1 PTSssssssss qq",
-        "Address2": "addr 2 Andamannnnn qq",
-        "Address3": "addr 3 ludhiana qq",
-        "Address4": "addr 4 singh is king qq",
-        "Address5": "addr 5  srk qq",
-            "City": "Lucknowwwww",
-            "State": "UPPPP",
-            "PostalCode": "555555555",
-            "Country": "UKKKKKK",
-            "Note": null,
-            "Latitude": 1,
+        "Id": "1525",
+        "CustomerId": "lrht19co",
+        "BranchNumber": "BR111111111",
+        "Name": "Shreyashi Expert",
+        "Contacts": [
+            {
+                "Title": null,
+                "FirstName": "Fname Shrey",
+                "MiddleName": null,
+                "LastName": "Lname SSSS",
+                "Suffix": null,
+                "PrimaryEmailAddr": "sshhjjlkemail@abc.com",
+                "Cc": null,
+                "Phone": "1111111111",
+                "PhoneExt": null,
+                "PhoneType": "Home",
+                "Fax": null
+            }
+        ],
+        "BillingAddress": {
+            "Address1": "Address 1 PTSssssssss",
+            "Address2": "addr 2 Andamannnnn",
+            "Address3": "addr 3 ludhiana ",
+            "Address4": "addr 4 singh is king",
+            "Address5": "addr 5 srk",
+            "City": "Bangaloreeeee",
+            "State": "KTTTT",
+            "PostalCode": "222222",
+            "Country": "Indiaaaaa",
+            "Note": "Noteeeeee",
+            "Latitude": 2,
             "Longitude": 5
-          },
-          "StartCode": null,
-          "TaxClass": null,
-          "TaxGroup": null,
-          "HeatCapacity": 0
-        }
-      ],
-      "Contracts": null,
-      "AccountNumber": 25156,
-            "CustomerId": "custidd"
+        },
+        "Notes": null,
+        "CurrentBalance": 0,
+        "CreditLimit": 4500,
+        "StartCode": null,
+        "TaxClass": null,
+        "TaxGroup": null,
+        "TaxLicenseNumber": null,
+        "IsActive": true,
+        "IsCommercial": false,
+        "RunCode": 0,
+        "Locations": [
+            {
+                "Id": null,
+                "LocationNumber": 1,
+                "Name": "Shop nameeeeee",
+                "DeliveryAddress": {
+                    "Address1": "Address 1 PTSssssssss qq",
+                    "Address2": "addr 2 Andamannnnn qq",
+                    "Address3": "addr 3 ludhiana qq",
+                    "Address4": "addr 4 singh is king qq",
+                    "Address5": "addr 5 srk qq",
+                    "City": "Lucknowwwww",
+                    "State": "UPPPP",
+                    "PostalCode": "555555555",
+                    "Country": "UKKKKKK",
+                    "Note": null,
+                    "Latitude": 1,
+                    "Longitude": 5
+                },
+                "StartCode": null,
+                "TaxClass": null,
+                "TaxGroup": null,
+                "HeatCapacity": 0
+            }
+        ],
+        "Contracts": null,
+        "AccountNumber": 84066648
+    },
+    {
+        "Id": "1525",
+        "CustomerId": "oj5pa98z",
+        "BranchNumber": "BR111111111",
+        "Name": "Shreyashi Expert",
+        "Contacts": [
+            {
+                "Title": null,
+                "FirstName": "Fname Shrey",
+                "MiddleName": null,
+                "LastName": "Lname SSSS",
+                "Suffix": null,
+                "PrimaryEmailAddr": "sshhjjlkemail@abc.com",
+                "Cc": null,
+                "Phone": "1111111111",
+                "PhoneExt": null,
+                "PhoneType": "Home",
+                "Fax": null
+            }
+        ],
+        "BillingAddress": {
+            "Address1": "Address 1 PTSssssssss",
+            "Address2": "addr 2 Andamannnnn",
+            "Address3": "addr 3 ludhiana ",
+            "Address4": "addr 4 singh is king",
+            "Address5": "addr 5 srk",
+            "City": "Bangaloreeeee",
+            "State": "KTTTT",
+            "PostalCode": "222222",
+            "Country": "Indiaaaaa",
+            "Note": "Noteeeeee",
+            "Latitude": 2,
+            "Longitude": 5
+        },
+        "Notes": null,
+        "CurrentBalance": 0,
+        "CreditLimit": 4500,
+        "StartCode": null,
+        "TaxClass": null,
+        "TaxGroup": null,
+        "TaxLicenseNumber": null,
+        "IsActive": true,
+        "IsCommercial": false,
+        "RunCode": 0,
+        "Locations": [
+            {
+                "Id": null,
+                "LocationNumber": 1,
+                "Name": "Shop nameeeeee",
+                "DeliveryAddress": {
+                    "Address1": "Address 1 PTSssssssss qq",
+                    "Address2": "addr 2 Andamannnnn qq",
+                    "Address3": "addr 3 ludhiana qq",
+                    "Address4": "addr 4 singh is king qq",
+                    "Address5": "addr 5 srk qq",
+                    "City": "Lucknowwwww",
+                    "State": "UPPPP",
+                    "PostalCode": "555555555",
+                    "Country": "UKKKKKK",
+                    "Note": null,
+                    "Latitude": 1,
+                    "Longitude": 5
+                },
+                "StartCode": null,
+                "TaxClass": null,
+                "TaxGroup": null,
+                "HeatCapacity": 0
+            }
+        ],
+        "Contracts": null,
+        "AccountNumber": 99860079
+    },
+    {
+        "Id": "1525",
+        "CustomerId": "om1amu8l",
+        "BranchNumber": "BR111111111",
+        "Name": "Shreyashi Expert",
+        "Contacts": [
+            {
+                "Title": null,
+                "FirstName": "Fname Shrey",
+                "MiddleName": null,
+                "LastName": "Lname SSSS",
+                "Suffix": null,
+                "PrimaryEmailAddr": "sshhjjlkemail@abc.com",
+                "Cc": null,
+                "Phone": "1111111111",
+                "PhoneExt": null,
+                "PhoneType": "Home",
+                "Fax": null
+            }
+        ],
+        "BillingAddress": {
+            "Address1": "Address 1 PTSssssssss",
+            "Address2": "addr 2 Andamannnnn",
+            "Address3": "addr 3 ludhiana ",
+            "Address4": "addr 4 singh is king",
+            "Address5": "addr 5 srk",
+            "City": "Bangaloreeeee",
+            "State": "KTTTT",
+            "PostalCode": "222222",
+            "Country": "Indiaaaaa",
+            "Note": "Noteeeeee",
+            "Latitude": 2,
+            "Longitude": 5
+        },
+        "Notes": null,
+        "CurrentBalance": 0,
+        "CreditLimit": 4500,
+        "StartCode": null,
+        "TaxClass": null,
+        "TaxGroup": null,
+        "TaxLicenseNumber": null,
+        "IsActive": true,
+        "IsCommercial": false,
+        "RunCode": 0,
+        "Locations": [
+            {
+                "Id": null,
+                "LocationNumber": 1,
+                "Name": "Shop nameeeeee",
+                "DeliveryAddress": {
+                    "Address1": "Address 1 PTSssssssss qq",
+                    "Address2": "addr 2 Andamannnnn qq",
+                    "Address3": "addr 3 ludhiana qq",
+                    "Address4": "addr 4 singh is king qq",
+                    "Address5": "addr 5 srk qq",
+                    "City": "Lucknowwwww",
+                    "State": "UPPPP",
+                    "PostalCode": "555555555",
+                    "Country": "UKKKKKK",
+                    "Note": null,
+                    "Latitude": 1,
+                    "Longitude": 5
+                },
+                "StartCode": null,
+                "TaxClass": null,
+                "TaxGroup": null,
+                "HeatCapacity": 0
+            }
+        ],
+        "Contracts": null,
+        "AccountNumber": 15296985
+    },
+    {
+        "Id": "1525",
+        "CustomerId": "2yb364no",
+        "BranchNumber": "BR111111111",
+        "Name": "Shreyashi Expert",
+        "Contacts": [
+            {
+                "Title": null,
+                "FirstName": "Fname Shrey",
+                "MiddleName": null,
+                "LastName": "Lname SSSS",
+                "Suffix": null,
+                "PrimaryEmailAddr": "sshhjjlkemail@abc.com",
+                "Cc": null,
+                "Phone": "1111111111",
+                "PhoneExt": null,
+                "PhoneType": "Home",
+                "Fax": null
+            }
+        ],
+        "BillingAddress": {
+            "Address1": "Address 1 PTSssssssss",
+            "Address2": "addr 2 Andamannnnn",
+            "Address3": "addr 3 ludhiana ",
+            "Address4": "addr 4 singh is king",
+            "Address5": "addr 5 srk",
+            "City": "Bangaloreeeee",
+            "State": "KTTTT",
+            "PostalCode": "222222",
+            "Country": "Indiaaaaa",
+            "Note": "Noteeeeee",
+            "Latitude": 2,
+            "Longitude": 5
+        },
+        "Notes": null,
+        "CurrentBalance": 0,
+        "CreditLimit": 4500,
+        "StartCode": null,
+        "TaxClass": null,
+        "TaxGroup": null,
+        "TaxLicenseNumber": null,
+        "IsActive": true,
+        "IsCommercial": false,
+        "RunCode": 0,
+        "Locations": [
+            {
+                "Id": null,
+                "LocationNumber": 1,
+                "Name": "Shop nameeeeee",
+                "DeliveryAddress": {
+                    "Address1": "Address 1 PTSssssssss qq",
+                    "Address2": "addr 2 Andamannnnn qq",
+                    "Address3": "addr 3 ludhiana qq",
+                    "Address4": "addr 4 singh is king qq",
+                    "Address5": "addr 5 srk qq",
+                    "City": "Lucknowwwww",
+                    "State": "UPPPP",
+                    "PostalCode": "555555555",
+                    "Country": "UKKKKKK",
+                    "Note": null,
+                    "Latitude": 1,
+                    "Longitude": 5
+                },
+                "StartCode": null,
+                "TaxClass": null,
+                "TaxGroup": null,
+                "HeatCapacity": 0
+            }
+        ],
+        "Contracts": null,
+        "AccountNumber": 56150153
+    },
+    {
+        "Id": "1525",
+        "CustomerId": "wxvf82qu",
+        "BranchNumber": "BR111111111",
+        "Name": "Shreyashi Expert",
+        "Contacts": [
+            {
+                "Title": null,
+                "FirstName": "Fname Shrey",
+                "MiddleName": null,
+                "LastName": "Lname SSSS",
+                "Suffix": null,
+                "PrimaryEmailAddr": "sshhjjlkemail@abc.com",
+                "Cc": null,
+                "Phone": "1111111111",
+                "PhoneExt": null,
+                "PhoneType": "Home",
+                "Fax": null
+            }
+        ],
+        "BillingAddress": {
+            "Address1": "Address 1 PTSssssssss",
+            "Address2": "addr 2 Andamannnnn",
+            "Address3": "addr 3 ludhiana ",
+            "Address4": "addr 4 singh is king",
+            "Address5": "addr 5 srk",
+            "City": "Bangaloreeeee",
+            "State": "KTTTT",
+            "PostalCode": "222222",
+            "Country": "Indiaaaaa",
+            "Note": "Noteeeeee",
+            "Latitude": 2,
+            "Longitude": 5
+        },
+        "Notes": null,
+        "CurrentBalance": 0,
+        "CreditLimit": 4500,
+        "StartCode": null,
+        "TaxClass": null,
+        "TaxGroup": null,
+        "TaxLicenseNumber": null,
+        "IsActive": true,
+        "IsCommercial": false,
+        "RunCode": 0,
+        "Locations": [
+            {
+                "Id": null,
+                "LocationNumber": 1,
+                "Name": "Shop nameeeeee",
+                "DeliveryAddress": {
+                    "Address1": "Address 1 PTSssssssss qq",
+                    "Address2": "addr 2 Andamannnnn qq",
+                    "Address3": "addr 3 ludhiana qq",
+                    "Address4": "addr 4 singh is king qq",
+                    "Address5": "addr 5 srk qq",
+                    "City": "Lucknowwwww",
+                    "State": "UPPPP",
+                    "PostalCode": "555555555",
+                    "Country": "UKKKKKK",
+                    "Note": null,
+                    "Latitude": 1,
+                    "Longitude": 5
+                },
+                "StartCode": null,
+                "TaxClass": null,
+                "TaxGroup": null,
+                "HeatCapacity": 0
+            }
+        ],
+        "Contracts": null,
+        "AccountNumber": 89720649
+    },
+    {
+        "Id": "1525",
+        "CustomerId": "al0p0msx",
+        "BranchNumber": "BR111111111",
+        "Name": "Shreyashi Expert",
+        "Contacts": [
+            {
+                "Title": null,
+                "FirstName": "Fname Shrey",
+                "MiddleName": null,
+                "LastName": "Lname SSSS",
+                "Suffix": null,
+                "PrimaryEmailAddr": "sshhjjlkemail@abc.com",
+                "Cc": null,
+                "Phone": "1111111111",
+                "PhoneExt": null,
+                "PhoneType": "Home",
+                "Fax": null
+            }
+        ],
+        "BillingAddress": {
+            "Address1": "Address 1 PTSssssssss",
+            "Address2": "addr 2 Andamannnnn",
+            "Address3": "addr 3 ludhiana ",
+            "Address4": "addr 4 singh is king",
+            "Address5": "addr 5 srk",
+            "City": "Bangaloreeeee",
+            "State": "KTTTT",
+            "PostalCode": "222222",
+            "Country": "Indiaaaaa",
+            "Note": "Noteeeeee",
+            "Latitude": 2,
+            "Longitude": 5
+        },
+        "Notes": null,
+        "CurrentBalance": 0,
+        "CreditLimit": 4500,
+        "StartCode": null,
+        "TaxClass": null,
+        "TaxGroup": null,
+        "TaxLicenseNumber": null,
+        "IsActive": true,
+        "IsCommercial": false,
+        "RunCode": 0,
+        "Locations": [
+            {
+                "Id": null,
+                "LocationNumber": 1,
+                "Name": "Shop nameeeeee",
+                "DeliveryAddress": {
+                    "Address1": "Address 1 PTSssssssss qq",
+                    "Address2": "addr 2 Andamannnnn qq",
+                    "Address3": "addr 3 ludhiana qq",
+                    "Address4": "addr 4 singh is king qq",
+                    "Address5": "addr 5 srk qq",
+                    "City": "Lucknowwwww",
+                    "State": "UPPPP",
+                    "PostalCode": "555555555",
+                    "Country": "UKKKKKK",
+                    "Note": null,
+                    "Latitude": 1,
+                    "Longitude": 5
+                },
+                "StartCode": null,
+                "TaxClass": null,
+                "TaxGroup": null,
+                "HeatCapacity": 0
+            }
+        ],
+        "Contracts": null,
+        "AccountNumber": 99091328
+    },
+    {
+        "Id": "1525",
+        "CustomerId": "2gytg50m",
+        "BranchNumber": "BR111111111",
+        "Name": "Shreyashi Expert",
+        "Contacts": [
+            {
+                "Title": null,
+                "FirstName": "Fname Shrey",
+                "MiddleName": null,
+                "LastName": "Lname SSSS",
+                "Suffix": null,
+                "PrimaryEmailAddr": "sshhjjlkemail@abc.com",
+                "Cc": null,
+                "Phone": "1111111111",
+                "PhoneExt": null,
+                "PhoneType": "Home",
+                "Fax": null
+            }
+        ],
+        "BillingAddress": {
+            "Address1": "Address 1 PTSssssssss",
+            "Address2": "addr 2 Andamannnnn",
+            "Address3": "addr 3 ludhiana ",
+            "Address4": "addr 4 singh is king",
+            "Address5": "addr 5 srk",
+            "City": "Bangaloreeeee",
+            "State": "KTTTT",
+            "PostalCode": "222222",
+            "Country": "Indiaaaaa",
+            "Note": "Noteeeeee",
+            "Latitude": 2,
+            "Longitude": 5
+        },
+        "Notes": null,
+        "CurrentBalance": 0,
+        "CreditLimit": 4500,
+        "StartCode": null,
+        "TaxClass": null,
+        "TaxGroup": null,
+        "TaxLicenseNumber": null,
+        "IsActive": true,
+        "IsCommercial": false,
+        "RunCode": 0,
+        "Locations": [
+            {
+                "Id": null,
+                "LocationNumber": 1,
+                "Name": "Shop nameeeeee",
+                "DeliveryAddress": {
+                    "Address1": "Address 1 PTSssssssss qq",
+                    "Address2": "addr 2 Andamannnnn qq",
+                    "Address3": "addr 3 ludhiana qq",
+                    "Address4": "addr 4 singh is king qq",
+                    "Address5": "addr 5 srk qq",
+                    "City": "Lucknowwwww",
+                    "State": "UPPPP",
+                    "PostalCode": "555555555",
+                    "Country": "UKKKKKK",
+                    "Note": null,
+                    "Latitude": 1,
+                    "Longitude": 5
+                },
+                "StartCode": null,
+                "TaxClass": null,
+                "TaxGroup": null,
+                "HeatCapacity": 0
+            }
+        ],
+        "Contracts": null,
+        "AccountNumber": 61630696
+    },
+    {
+        "Id": "1525",
+        "CustomerId": "ixx29qq7",
+        "BranchNumber": "BR111111111",
+        "Name": "Shreyashi Expert",
+        "Contacts": [
+            {
+                "Title": null,
+                "FirstName": "Fname Shrey",
+                "MiddleName": null,
+                "LastName": "Lname SSSS",
+                "Suffix": null,
+                "PrimaryEmailAddr": "sshhjjlkemail@abc.com",
+                "Cc": null,
+                "Phone": "1111111111",
+                "PhoneExt": null,
+                "PhoneType": "Home",
+                "Fax": null
+            }
+        ],
+        "BillingAddress": {
+            "Address1": "Address 1 PTSssssssss",
+            "Address2": "addr 2 Andamannnnn",
+            "Address3": "addr 3 ludhiana ",
+            "Address4": "addr 4 singh is king",
+            "Address5": "addr 5 srk",
+            "City": "Bangaloreeeee",
+            "State": "KTTTT",
+            "PostalCode": "222222",
+            "Country": "Indiaaaaa",
+            "Note": "Noteeeeee",
+            "Latitude": 2,
+            "Longitude": 5
+        },
+        "Notes": null,
+        "CurrentBalance": 0,
+        "CreditLimit": 4500,
+        "StartCode": null,
+        "TaxClass": null,
+        "TaxGroup": null,
+        "TaxLicenseNumber": null,
+        "IsActive": true,
+        "IsCommercial": false,
+        "RunCode": 0,
+        "Locations": [
+            {
+                "Id": null,
+                "LocationNumber": 1,
+                "Name": "Shop nameeeeee",
+                "DeliveryAddress": {
+                    "Address1": "Address 1 PTSssssssss qq",
+                    "Address2": "addr 2 Andamannnnn qq",
+                    "Address3": "addr 3 ludhiana qq",
+                    "Address4": "addr 4 singh is king qq",
+                    "Address5": "addr 5 srk qq",
+                    "City": "Lucknowwwww",
+                    "State": "UPPPP",
+                    "PostalCode": "555555555",
+                    "Country": "UKKKKKK",
+                    "Note": null,
+                    "Latitude": 1,
+                    "Longitude": 5
+                },
+                "StartCode": null,
+                "TaxClass": null,
+                "TaxGroup": null,
+                "HeatCapacity": 0
+            }
+        ],
+        "Contracts": null,
+        "AccountNumber": 88240759
     }
-  ],
+],
   "Result": true,
   "ErrorCode": null,
   "ErrorMessage": null
