@@ -363,7 +363,9 @@ paths:
           "HeatCapacity": 0
         }
       ],
-      "Contracts": null
+      "Contracts": null,
+       "AccountNumber": 25155,
+            "CustomerId": "custiddddd"
     }
   ],
   "Result": true,
