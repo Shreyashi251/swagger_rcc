@@ -56,8 +56,8 @@ paths:
                   value: '{
   "CustomerBases": [
     {
-        "AccountNumber": 84066648,
-        "CustomerId": "lrht19co"
+        "AccountNumber": 1234567,
+        "CustomerId": "cust12345"
     }
 ],
   "Result": true,
@@ -344,18 +344,18 @@ paths:
                 "LocationNumber": 1,
                 "Name": "Shop nameeeeee",
                 "DeliveryAddress": {
-                    "Address1": "Address 1 PTSssssssss qq",
-                    "Address2": "addr 2 Andamannnnn qq",
-                    "Address3": "addr 3 ludhiana qq",
-                    "Address4": "addr 4 singh is king qq",
-                    "Address5": "addr 5 srk qq",
-                    "City": "Lucknowwwww",
-                    "State": "UPPPP",
-                    "PostalCode": "555555555",
-                    "Country": "UKKKKKK",
+                    "Address1": "Address 1 yy",
+                    "Address2": "add Andaman yy",
+                    "Address3": "addr 3 ludhiana yy",
+                    "Address4": "addr 4 singh is king yyyy",
+                    "Address5": "addr 5 srk",
+                    "City": "Bangaloree",
+                    "State": "karnatkaa",
+                    "PostalCode": "59876545",
+                    "Country": "UKyhu",
                     "Note": null,
-                    "Latitude": 1,
-                    "Longitude": 5
+                    "Latitude": 1.8788,
+                    "Longitude": 5.988
                 },
                 "StartCode": null,
                 "TaxClass": null,
@@ -364,7 +364,7 @@ paths:
             }
         ],
         "Contracts": null,
-        "AccountNumber": 84066648
+        "AccountNumber": 1234567
     }
 ],
   "Result": true,
