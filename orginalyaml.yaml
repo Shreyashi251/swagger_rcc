@@ -57,7 +57,7 @@ paths:
   "CustomerBases": [
     {
         "AccountNumber": 5678778,
-        "CustomerId": "cust12345"
+        "CustomerId": "cust1234578"
     }
 ],
   "Result": true,
