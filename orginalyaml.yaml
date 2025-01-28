@@ -56,7 +56,7 @@ paths:
                   value: '{
   "CustomerBases": [
     {
-        "AccountNumber": 567867,
+        "AccountNumber": 5678777,
         "CustomerId": "cust12345"
     }
 ],
@@ -364,7 +364,7 @@ paths:
             }
         ],
         "Contracts": null,
-        "AccountNumber": 567867 
+        "AccountNumber": 5678777 
     }
 ],
   "Result": true,
