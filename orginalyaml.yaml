@@ -298,7 +298,7 @@ paths:
         "Id": "1525",
         "CustomerId": "lrht19co",
         "BranchNumber": "BR111111111",
-        "Name": "Expert hu mai",
+        "Name": "",
         "Contacts": [
             {
                 "Title": null,
@@ -344,11 +344,11 @@ paths:
                 "LocationNumber": 1,
                 "Name": "Shop nameeeeee",
                 "DeliveryAddress": {
-                    "Address1": "",
-                    "Address2": "",
-                    "Address3": "",
-                    "Address4": "",
-                    "Address5": "",
+                    "Address1": "cchcvjdgbcf",
+                    "Address2": "vgcgvdjhv",
+                    "Address3": "bjdcb",
+                    "Address4": "bhbchcc",
+                    "Address5": "vchnvbbnyktn",
                     "City": "Bangalore yy",
                     "State": "karnatkaauuu",
                     "PostalCode": "59876545",
