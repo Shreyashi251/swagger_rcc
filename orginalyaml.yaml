@@ -56,7 +56,7 @@ paths:
                   value: '{
   "CustomerBases": [
     {
-        "AccountNumber": 1234567,
+        "AccountNumber": ,
         "CustomerId": "cust12345"
     }
 ],
@@ -302,22 +302,22 @@ paths:
         "Contacts": [
             {
                 "Title": null,
-                "FirstName": "Fname Shrey",
+                "FirstName": "Shreyashi",
                 "MiddleName": null,
-                "LastName": "Lname SSSS",
+                "LastName": "Singh",
                 "Suffix": null,
-                "PrimaryEmailAddr": "sshhjjlkemail@abc.com",
+                "PrimaryEmailAddr": "mymailopop@abc.com",
                 "Cc": null,
-                "Phone": "1111111111",
+                "Phone": "999999999",
                 "PhoneExt": null,
                 "PhoneType": "Home",
                 "Fax": null
             }
         ],
         "BillingAddress": {
-            "Address1": "Address 1 PTSssssssss",
-            "Address2": "addr 2 Andamannnnn",
-            "Address3": "addr 3 ludhiana ",
+            "Address1": "23, 2nd Floor",
+            "Address2": "Narayan Dhuru Street",
+            "Address3": "Maharashtra",
             "Address4": "addr 4 singh is king",
             "Address5": "addr 5 srk",
             "City": "Bangaloreeeee",
@@ -344,13 +344,13 @@ paths:
                 "LocationNumber": 1,
                 "Name": "Shop nameeeeee",
                 "DeliveryAddress": {
-                    "Address1": "Address 1 yy",
-                    "Address2": "add Andaman yy",
-                    "Address3": "addr 3 ludhiana yy",
-                    "Address4": "addr 4 singh is king yyyy",
+                    "Address1": "Address 1",
+                    "Address2": "addk  kk",
+                    "Address3": "addr 3 ludhiana kk",
+                    "Address4": "addr 4 singh is kk",
                     "Address5": "addr 5 srk",
-                    "City": "Bangaloree",
-                    "State": "karnatkaa",
+                    "City": "Bangalore yy",
+                    "State": "karnatkaauuu",
                     "PostalCode": "59876545",
                     "Country": "UKyhu",
                     "Note": null,
@@ -364,7 +364,7 @@ paths:
             }
         ],
         "Contracts": null,
-        "AccountNumber": 1234567
+        "AccountNumber": 
     }
 ],
   "Result": true,
