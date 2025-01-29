@@ -306,7 +306,7 @@ paths:
                 "MiddleName": null,
                 "LastName": "Expert",
                 "Suffix": null,
-                "PrimaryEmailAddr": "mymailopop@abc.com",
+                "PrimaryEmailAddr": "myyyymailll@abc.com",
                 "Cc": null,
                 "Phone": "999999999",
                 "PhoneExt": null,
@@ -344,7 +344,7 @@ paths:
                 "LocationNumber": 1,
                 "Name": "Shop nameeeeee",
                 "DeliveryAddress": {
-                    "Address1": "cchcvjdgbcf",
+                    "Address1": "cchcvjdgbcf iiii",
                     "Address2": "vgcgvdjhv",
                     "Address3": "bjdcb",
                     "Address4": "bhbchcc",
