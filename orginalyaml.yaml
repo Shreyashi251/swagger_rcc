@@ -56,7 +56,7 @@ paths:
                   value: '{
   "CustomerBases": [
     {
-        "AccountNumber": 157577,
+        "AccountNumber": 151515,
         "CustomerId": "cust1234578"
     }
 ],
@@ -350,9 +350,9 @@ paths:
                     "Address4": "bhbchcc",
                     "Address5": "vchnvbbnyktn",
                     "City": "cityyyy",
-                    "State": "my state",
+                    "State": "",
                     "PostalCode": "989898",
-                    "Country": "",
+                    "Country": "usa",
                     "Note": null,
                     "Latitude": 1.8788,
                     "Longitude": 5.988
@@ -364,7 +364,7 @@ paths:
             }
         ],
         "Contracts": null,
-        "AccountNumber": 157577
+        "AccountNumber": 151515
     }
 ],
   "Result": true,
