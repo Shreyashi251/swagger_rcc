@@ -56,7 +56,7 @@ paths:
                   value: '{
   "CustomerBases": [
     {
-        "AccountNumber": 545451,
+        "AccountNumber": 66666,
         "CustomerId": "cust1234578"
     }
 ],
@@ -298,7 +298,7 @@ paths:
         "Id": "1525",
         "CustomerId": "lrht19co",
         "BranchNumber": "BR111111111",
-        "Name": "",
+        "Name": "ShreyaTest",
         "Contacts": [
             {
                 "Title": null,
@@ -342,20 +342,20 @@ paths:
             {
                 "Id": null,
                 "LocationNumber": 1,
-                "Name": "Shop nameeeeee",
+                "Name": "ShreyashiStar",
                 "DeliveryAddress": {
-                    "Address1": "cchcvjdgbcf iiii",
-                    "Address2": "vgcgvdjhv",
-                    "Address3": "bjdcb",
-                    "Address4": "bhbchcc",
-                    "Address5": "vchnvbbnyktn",
-                    "City": "patna",
-                    "State": "bihar",
-                    "PostalCode": "989898",
-                    "Country": "europe",
+                    "Address1": "xyz road",
+                    "Address2": "abc street",
+                    "Address3": "ccc",
+                    "Address4": "HAL",
+                    "Address5": "Prestige",
+                    "City": "bang",
+                    "State": "karnat",
+                    "PostalCode": "567777",
+                    "Country": "indiaa",
                     "Note": null,
-                    "Latitude": 1.8788,
-                    "Longitude": 5.988
+                    "Latitude": 7,
+                    "Longitude": 5.908
                 },
                 "StartCode": null,
                 "TaxClass": null,
@@ -364,7 +364,7 @@ paths:
             }
         ],
         "Contracts": null,
-        "AccountNumber": 545451
+        "AccountNumber": 66666
     }
 ],
   "Result": true,
