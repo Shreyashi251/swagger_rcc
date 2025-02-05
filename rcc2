@@ -1,0 +1,433 @@
+---
+openapi: 3.0.2
+info:
+  title: API RCC - 1.0
+  version: 1.0.0
+  description: API definition of RCC
+  contact:
+    name: RCC-asdasdad
+    url: https://asddasdasd
+    email: achyuth@mailinator.com
+paths:
+  /Interface/Customer/Get/Ids:
+    parameters:
+    - in: query
+      name: lastUpdatedSince
+      schema:
+        type: string
+      description: The number of items to skip before starting to collect the result set
+    summary: Get list of new customers
+    get:
+      responses: 
+        200:
+          content: 
+            application/json:
+              schema: 
+                type: "object"
+                properties: 
+                  CustomerBases: 
+                    type: "array"
+                    items: 
+                      type: "object"
+                      properties: 
+                        AccountNumber: 
+                          type: "number"
+                          description: ""
+                        CustomerId: 
+                          type: "string"
+                          description: ""
+                  Result: 
+                    type: "boolean"
+                    description: ""
+                  ErrorCode: 
+                    type: "string"
+                    description: ""
+                  ErrorMessage: 
+                    type: "string"
+                    description: ""
+      # responses:
+      #   "200":
+      #     content:
+      #       application/json:
+      #         schema:
+      #           $ref: '#/components/schemas/Customers'
+              examples:
+                New Customers Example:
+                  value: '{
+  "CustomerBases": [
+    {
+        "AccountNumber": 123,
+        "CustomerId": "cust76"
+    }
+],
+  "Result": true,
+  "ErrorCode": null,
+  "ErrorMessage": null
+}'
+                    
+          description: Changed Customers
+      operationId: GetNewCustomers
+      summary: Get customer Ids
+  /Interface/Customer/GetList:
+    summary: Get list of customer accounts
+    parameters:
+    - in: query
+      name: filter
+      schema:
+        type: string
+      description: The number of items to skip before starting to collect the result set
+    get:
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                type: "object"
+                properties: 
+                  Customer: 
+                    type: "string"
+                    description: ""
+                  Customers: 
+                    type: "array"
+                    items: 
+                      type: "object"
+                      properties: 
+                        Id: 
+                          type: "string"
+                          description: ""
+                        CustomerId: 
+                          type: "string"
+                          description: ""
+                        BranchNumber: 
+                          type: "string"
+                          description: ""
+                        Name: 
+                          type: "string"
+                          description: ""
+                        Contacts: 
+                          type: "array"
+                          items: 
+                            type: "object"
+                            properties: 
+                              Title: 
+                                type: "string"
+                                description: ""
+                              FirstName: 
+                                type: "string"
+                                description: ""
+                              MiddleName: 
+                                type: "string"
+                                description: ""
+                              LastName: 
+                                type: "string"
+                                description: ""
+                              Suffix: 
+                                type: "string"
+                                description: ""
+                              PrimaryEmailAddr: 
+                                type: "string"
+                                description: ""
+                              Cc: 
+                                type: "string"
+                                description: ""
+                              Phone: 
+                                type: "string"
+                                description: ""
+                              PhoneExt: 
+                                type: "string"
+                                description: ""
+                              PhoneType: 
+                                type: "string"
+                                description: ""
+                              Fax: 
+                                type: "string"
+                                description: ""
+                        BillingAddress: 
+                          type: "object"
+                          properties: 
+                            Address1: 
+                              type: "string"
+                              description: ""
+                            Address2: 
+                              type: "string"
+                              description: ""
+                            Address3: 
+                              type: "string"
+                              description: ""
+                            Address4: 
+                              type: "string"
+                              description: ""
+                            Address5: 
+                              type: "string"
+                              description: ""
+                            City: 
+                              type: "string"
+                              description: ""
+                            State: 
+                              type: "string"
+                              description: ""
+                            PostalCode: 
+                              type: "string"
+                              description: ""
+                            Country: 
+                              type: "string"
+                              description: ""
+                            Note: 
+                              type: "string"
+                              description: ""
+                            Latitude: 
+                              type: "number"
+                              description: ""
+                            Longitude: 
+                              type: "number"
+                              description: ""
+                        Notes: 
+                          type: "string"
+                          description: ""
+                        CurrentBalance: 
+                          type: "number"
+                          description: ""
+                        CreditLimit: 
+                          type: "number"
+                          description: ""
+                        StartCode: 
+                          type: "string"
+                          description: ""
+                        TaxClass: 
+                          type: "string"
+                          description: ""
+                        TaxGroup: 
+                          type: "string"
+                          description: ""
+                        TaxLicenseNumber: 
+                          type: "string"
+                          description: ""
+                        IsActive: 
+                          type: "boolean"
+                          description: ""
+                        IsCommercial: 
+                          type: "boolean"
+                          description: ""
+                        RunCode: 
+                          type: "number"
+                          description: ""
+                        Locations: 
+                          type: "array"
+                          items: 
+                            type: "object"
+                            properties: 
+                              Id: 
+                                type: "string"
+                                description: ""
+                              LocationNumber: 
+                                type: "number"
+                                description: ""
+                              Name: 
+                                type: "string"
+                                description: ""
+                              DeliveryAddress: 
+                                type: "object"
+                                properties: 
+                                  Address1: 
+                                    type: "string"
+                                    description: ""
+                                  Address2: 
+                                    type: "string"
+                                    description: ""
+                                  Address3: 
+                                    type: "string"
+                                    description: ""
+                                  Address4: 
+                                    type: "string"
+                                    description: ""
+                                  Address5: 
+                                    type: "string"
+                                    description: ""
+                                  City: 
+                                    type: "string"
+                                    description: ""
+                                  State: 
+                                    type: "string"
+                                    description: ""
+                                  PostalCode: 
+                                    type: "string"
+                                    description: ""
+                                  Country: 
+                                    type: "string"
+                                    description: ""
+                                  Note: 
+                                    type: "string"
+                                    description: ""
+                                  Latitude: 
+                                    type: "number"
+                                    description: ""
+                                  Longitude: 
+                                    type: "number"
+                                    description: ""
+                              StartCode: 
+                                type: "string"
+                                description: ""
+                              TaxClass: 
+                                type: "string"
+                                description: ""
+                              TaxGroup: 
+                                type: "string"
+                                description: ""
+                              HeatCapacity: 
+                                type: "number"
+                                description: ""
+                        Contracts: 
+                          type: "string"
+                          description: ""
+                  Result: 
+                    type: "boolean"
+                    description: ""
+                  ErrorCode: 
+                    type: "string"
+                    description: ""
+                  ErrorMessage: 
+                    type: "string"
+                    description: ""
+
+              examples:
+                Customer Details Example:
+                  value: '{
+  "Customer": null,
+  "Customers": [
+    {
+        "Id": "1525",
+        "CustomerId": "lrht19co",
+        "BranchNumber": "BR111111111",
+        "Name": "Anthony Gunzalish",
+        "Contacts": [
+            {
+                "Title": null,
+                "FirstName": "Shreyashi Singh",
+                "MiddleName": null,
+                "LastName": "Expert",
+                "Suffix": null,
+                "PrimaryEmailAddr": "myyyymailll@abc.com",
+                "Cc": null,
+                "Phone": "999999999",
+                "PhoneExt": null,
+                "PhoneType": "Home",
+                "Fax": null
+            }
+        ],
+        "BillingAddress": {
+            "Address1": "23, 2nd Floor",
+            "Address2": "Narayan Dhuru Street",
+            "Address3": "Maharashtra",
+            "Address4": "addr 4 singh is king",
+            "Address5": "addr 5 srk",
+            "City": "City",
+            "State": "KTTTT",
+            "PostalCode": "222222",
+            "Country": "Indiaaaaa",
+            "Note": "Noteeeeee",
+            "Latitude": 2,
+            "Longitude": 5
+        },
+        "Notes": null,
+        "CurrentBalance": 0,
+        "CreditLimit": 4500,
+        "StartCode": null,
+        "TaxClass": null,
+        "TaxGroup": null,
+        "TaxLicenseNumber": null,
+        "IsActive": false,
+        "IsCommercial": true,
+        "RunCode": 0,
+        "Locations": [
+            {
+                "Id": null,
+                "LocationNumber": 1,
+                "Name": "ShreyashiiiiiiSinghhhhh",
+                "DeliveryAddress": {
+                    "Address1": "kaash",
+                    "Address2": "test",
+                    "Address3": "successful",
+                    "Address4": "ho",
+                    "Address5": "jaye",
+                    "City": "Vadodara",
+                    "State": "gujrat",
+                    "PostalCode": "390001",
+                    "Country": "indiaa",
+                    "Note": null,
+                    "Latitude": 8.8,
+                    "Longitude": 8,6
+                },
+                "StartCode": null,
+                "TaxClass": null,
+                "TaxGroup": null,
+                "HeatCapacity": 0
+            }
+        ],
+        "Contracts": null,
+        "AccountNumber": 123
+    }
+],
+  "Result": true,
+  "ErrorCode": null,
+  "ErrorMessage": null
+}'
+          description: Changed Customer Details
+      operationId: Get Customer Details
+      summary: Get Customer Details
+      
+  /Token:
+    summary: Get access token
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                username:
+                  type: string
+                  example: achyuth
+                password:
+                  type: string
+      responses:
+        
+        200:
+          content: 
+            application/json:
+              schema: 
+                type: "object"
+                properties: 
+                  access_token: 
+                    type: "string"
+                    description: ""
+                  token_type: 
+                    type: "string"
+                    description: ""
+                  expires_in: 
+                    type: "number"
+                    description: ""
+                  userName: 
+                    type: "string"
+                    description: ""
+                  .issued: 
+                    type: "string"
+                    description: ""
+                  .expires: 
+                    type: "string"
+                    description: ""
+    
+              examples:
+                New Customers Example:
+                  value: '{
+    "access_token": "shreyashi",
+    "token_type": "bearer",
+    "expires_in": 1209599,
+    "userName": "demo",
+    ".issued": "Mon, 20 Jan 2025 14:21:30 GMT",
+    ".expires": "Mon, 03 Feb 2025 14:21:30 GMT"
+}
+'
+                    
+          description: Changed Customers
+      operationId: Get Token
+      summary: Get customer Ids
