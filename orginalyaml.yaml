@@ -56,7 +56,7 @@ paths:
                   value: '{
   "CustomerBases": [
     {
-        "AccountNumber": 515199,
+        "AccountNumber": 25252,
         "CustomerId": "cust1234578"
     }
 ],
@@ -298,7 +298,7 @@ paths:
         "Id": "1525",
         "CustomerId": "lrht19co",
         "BranchNumber": "BR111111111",
-        "Name": "ShreyaTest",
+        "Name": "Anthony Gunzalish",
         "Contacts": [
             {
                 "Title": null,
@@ -354,7 +354,7 @@ paths:
                     "PostalCode": "567777",
                     "Country": "indiaa",
                     "Note": null,
-                    "Latitude": 7,
+                    "Latitude": 7.000,
                     "Longitude": 5.908
                 },
                 "StartCode": null,
@@ -364,7 +364,7 @@ paths:
             }
         ],
         "Contracts": null,
-        "AccountNumber": 515199
+        "AccountNumber": 25252
     }
 ],
   "Result": true,
