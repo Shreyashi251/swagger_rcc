@@ -1,7 +1,7 @@
 ---
 openapi: 3.0.2
 info:
-  title: API RCC - 1.0
+  title: API RCC - 2.0
   version: 1.0.0
   description: API definition of RCC
   contact:
