@@ -298,13 +298,13 @@ paths:
         "Id": "1525",
         "CustomerId": "lrht19co",
         "BranchNumber": "BR111111111",
-        "Name": "AAAAAA Singh",
+        "Name": "New Name",
         "Contacts": [
             {
                 "Title": null,
-                "FirstName": "Shreyashi Singh",
+                "FirstName": "Shreyaaaa",
                 "MiddleName": null,
-                "LastName": "Expert",
+                "LastName": "ExpertSingh",
                 "Suffix": null,
                 "PrimaryEmailAddr": "myyyymailll@abc.com",
                 "Cc": null,
