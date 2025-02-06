@@ -335,7 +335,7 @@ paths:
         "TaxClass": null,
         "TaxGroup": null,
         "TaxLicenseNumber": null,
-        "IsActive": false,
+        "IsActive": true,
         "IsCommercial": true,
         "RunCode": 0,
         "Locations": [
