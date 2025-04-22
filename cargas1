@@ -1,7 +1,7 @@
 ---
 openapi: 3.0.2
 info:
-  title: API Cargas - 2.0
+  title: API Cargas - 3.0
   version: 1.0.0
   description: API definition of Cargas
   contact:
