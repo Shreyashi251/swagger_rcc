@@ -117,9 +117,9 @@ paths:
              <Burner></Burner>
              <Nozzle></Nozzle>
              <SmokePipe></SmokePipe>
-             <Manufacturer></Manufacturer>
-             <Model></Model>
-             <SerialNumber></SerialNumber>
+             <Manufacturer>manufacturerr</Manufacturer>
+             <Model>modelpooo</Model>
+             <SerialNumber>12345</SerialNumber>
              <PurchaseDate></PurchaseDate>
              <WarrantyStartDate></WarrantyStartDate>
              <WarrantyEndDate></WarrantyEndDate>
@@ -134,7 +134,7 @@ paths:
              <FillLocation></FillLocation>
              <IsDifficultDelivery>false</IsDifficultDelivery>
              <CallAhead>false</CallAhead>
-             <TankPosition></TankPosition>
+             <TankPosition>Under Ground</TankPosition>
              <DeliveryType>Will Call</DeliveryType>
              <EstimatedNextDeliveryDate></EstimatedNextDeliveryDate>
              <EstimatedRunOutDate></EstimatedRunOutDate>
