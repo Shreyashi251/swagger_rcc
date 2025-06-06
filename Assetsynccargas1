@@ -180,7 +180,8 @@ paths:
       <State>sdasdasd2</State>
       <Zipcode>87895552</Zipcode>
       <ContactPerson>adasdsa2</ContactPerson>
-    
+      <CustomerLastName>singh136470</CustomerLastName>
+      <CustomerFirstName>shreyashi136470</CustomerFirstName>
       <PrimaryPhone>7878978782</PrimaryPhone>
     </Table>
   </DataSet>
