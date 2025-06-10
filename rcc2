@@ -56,9 +56,13 @@ paths:
                   value: '{
   "CustomerBases": [
     {
-        "AccountNumber": 123,
-        "CustomerId": "cust76"
-    }
+    "AccountNumber": 510111,
+    "CustomerId": "lrht19co"
+  },
+  {
+    "AccountNumber": 964103,
+    "CustomerId": "lrht19co"
+  }
 ],
   "Result": true,
   "ErrorCode": null,
@@ -298,29 +302,29 @@ paths:
         "Id": "1525",
         "CustomerId": "lrht19co",
         "BranchNumber": "BR111111111",
-        "Name": "Anthony Gunzalish",
+        "Name": "Shreyashi Expert",
         "Contacts": [
             {
                 "Title": null,
-                "FirstName": "Shreyashi Singh",
+                "FirstName": "Fname Shrey",
                 "MiddleName": null,
-                "LastName": "Expert",
+                "LastName": "Lname SSSS",
                 "Suffix": null,
-                "PrimaryEmailAddr": "myyyymailll@abc.com",
+                "PrimaryEmailAddr": "sshhjjlkemail@abc.com",
                 "Cc": null,
-                "Phone": "999999999",
+                "Phone": "1111111111",
                 "PhoneExt": null,
                 "PhoneType": "Home",
                 "Fax": null
             }
         ],
         "BillingAddress": {
-            "Address1": "23, 2nd Floor",
-            "Address2": "Narayan Dhuru Street",
-            "Address3": "Maharashtra",
+            "Address1": "Address 1 PTSssssssss",
+            "Address2": "addr 2 Andamannnnn",
+            "Address3": "addr 3 ludhiana ",
             "Address4": "addr 4 singh is king",
             "Address5": "addr 5 srk",
-            "City": "City",
+            "City": "Bangaloreeeee",
             "State": "KTTTT",
             "PostalCode": "222222",
             "Country": "Indiaaaaa",
@@ -335,27 +339,27 @@ paths:
         "TaxClass": null,
         "TaxGroup": null,
         "TaxLicenseNumber": null,
-        "IsActive": false,
-        "IsCommercial": true,
+        "IsActive": true,
+        "IsCommercial": false,
         "RunCode": 0,
         "Locations": [
             {
                 "Id": null,
                 "LocationNumber": 1,
-                "Name": "ShreyashiiiiiiSinghhhhh",
+                "Name": "Shop nameeeeee",
                 "DeliveryAddress": {
-                    "Address1": "kaash",
-                    "Address2": "test",
-                    "Address3": "successful",
-                    "Address4": "ho",
-                    "Address5": "jaye",
-                    "City": "Vadodara",
-                    "State": "gujrat",
-                    "PostalCode": "390001",
-                    "Country": "indiaa",
+                    "Address1": "Address 1 PTSssssssss qq",
+                    "Address2": "addr 2 Andamannnnn qq",
+                    "Address3": "addr 3 ludhiana qq",
+                    "Address4": "addr 4 singh is king qq",
+                    "Address5": "addr 5 srk qq",
+                    "City": "Lucknowwwww",
+                    "State": "UPPPP",
+                    "PostalCode": "555555555",
+                    "Country": "UKKKKKK",
                     "Note": null,
-                    "Latitude": 8.8,
-                    "Longitude": 8,6
+                    "Latitude": 1,
+                    "Longitude": 5
                 },
                 "StartCode": null,
                 "TaxClass": null,
@@ -364,7 +368,7 @@ paths:
             }
         ],
         "Contracts": null,
-        "AccountNumber": 123
+        "AccountNumber": 510111
     }
 ],
   "Result": true,
@@ -419,7 +423,7 @@ paths:
               examples:
                 New Customers Example:
                   value: '{
-    "access_token": "shreyashi",
+    "access_token": "j8Cu3D-htqLhAgj_64OO2Wn-zk5WyPa29DGTZDYwDNVhS7zlammWq-2j_q7f08wUXrUHoImdWY7qSqaOszwhWVTVswZiCMj7IXa8vSPXM80e14AGBavEPctg-lVBxMWYnhNjHbe3TcCPsCvKtKdSBT8VFEIfhp7Nd5ZrsAWCLwoP10HmCd0OWbqq62IxJ1tmTQqRdU6U3PopLpmv86yVPkdhfNyMIHC5YxmVkO3tdxGzkWAzlQ0OSs9-C8YU2K3nwoq0krgMCxVC_KMl8nWou2x0xEVSR7i2tcXiAL6jkErkQfc7xzhGiorQ06weaSSK9XN_83QcZPj7oCkzhi7Bd-whjulHHq4wAXP52Qp24hY2r_QHThD_otge94Tr1cSPmrFsVEIid0HelWiwO-X_tMyDWIzQsNdDF7ZHMnOUd6X1c_C4BSebn7a9gBcKEH0xPPF2lYOcjz5bIlth1wPc32nB9CentJsIYm3fAGWx5m7BT_6H2xvAEQo2QuTPq20eL54TcwxUJV29Ff4eAXqvGWeG-4teoQ0NFiuEORpUS3HliRKtmUoLzDeI_-UWQo8cZs8XpknwnfAXaxajYrFzfbaVASAL_qbqITcA5AKN3LKiFG8Ik2FTINdhrCUALUc6",
     "token_type": "bearer",
     "expires_in": 1209599,
     "userName": "demo",
