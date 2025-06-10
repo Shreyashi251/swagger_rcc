@@ -23,7 +23,10 @@ paths:
                   value: '<Results>
   <DataSet>
     <Table>
-      <CustomerID>111111</CustomerID>
+      <CustomerID>77755</CustomerID>
+    </Table>
+    <Table>
+      <CustomerID>12312313</CustomerID>
     </Table>
   </DataSet>
 </Results>'
@@ -44,15 +47,11 @@ paths:
                 New Customers Example:
                   value: '<Results>
   <DataSet>
-    
     <Table>
-      <TankID>222222</TankID>
+      <TankID>55</TankID>
     </Table>
     <Table>
-      <TankID>444444</TankID>
-    </Table>
-    <Table>
-      <TankID>555555</TankID>
+      <TankID>55</TankID>
     </Table>
   </DataSet>
 </Results>'
@@ -73,20 +72,19 @@ paths:
                 New Customers Example:
                   value: '<Results>
   <DataSet>
-    
     <Table>
-      <EquipmentID>222222</EquipmentID>
-      <CustomerID>111111</CustomerID>
+      <EquipmentID>55</EquipmentID>
+      <CustomerID>77755</CustomerID>
+      <Date>159159</Date>
+    </Table>
+	<Table>
+      <EquipmentID>56</EquipmentID>
+      <CustomerID>77755</CustomerID>
       <Date>159159</Date>
     </Table>
     <Table>
-      <EquipmentID>444444</EquipmentID>
-      <CustomerID>111111</CustomerID>
-      <Date>159159</Date>
-    </Table>
-    <Table>
-      <EquipmentID>555555</EquipmentID>
-      <CustomerID>111111</CustomerID>
+      <EquipmentID>77</EquipmentID>
+      <CustomerID>12312313</CustomerID>
       <Date>159159</Date>
     </Table>
   </DataSet>
@@ -110,8 +108,8 @@ paths:
                   value: '<Results>
   <DataSet>
     <Table>
-             <bEquipmentID>222222</bEquipmentID>
-             <CustomerID>111111</CustomerID>
+             <bEquipmentID>55</bEquipmentID>
+             <CustomerID>77755</CustomerID>
              <LocationID>77</LocationID>
              <Inactive>false</Inactive>
              <TaxSchedule>West Virginia</TaxSchedule>
@@ -126,7 +124,7 @@ paths:
              <SmokePipe></SmokePipe>
              <Manufacturer>manufacturerr</Manufacturer>
              <Model>modelpooo</Model>
-             <SerialNumber>333333</SerialNumber>
+             <SerialNumber>757575</SerialNumber>
              <PurchaseDate></PurchaseDate>
              <WarrantyStartDate></WarrantyStartDate>
              <WarrantyEndDate></WarrantyEndDate>
@@ -151,9 +149,9 @@ paths:
              <PriceCode></PriceCode>
              <Attributes></Attributes>
          </Table>
-         <Table>
-             <bEquipmentID>444444</bEquipmentID>
-             <CustomerID>111111</CustomerID>
+		 <Table>
+             <bEquipmentID>56</bEquipmentID>
+             <CustomerID>77755</CustomerID>
              <LocationID>77</LocationID>
              <Inactive>false</Inactive>
              <TaxSchedule>West Virginia</TaxSchedule>
@@ -168,49 +166,7 @@ paths:
              <SmokePipe></SmokePipe>
              <Manufacturer>manufacturerr</Manufacturer>
              <Model>modelpooo</Model>
-             <SerialNumber>333335</SerialNumber>
-             <PurchaseDate></PurchaseDate>
-             <WarrantyStartDate></WarrantyStartDate>
-             <WarrantyEndDate></WarrantyEndDate>
-             <NonFuelTaxSchedule></NonFuelTaxSchedule>
-             <TaxCode1></TaxCode1>
-             <TaxCode2></TaxCode2>
-             <FuelItem>PROPANE</FuelItem>
-             <FuelType>PROPANE</FuelType>
-             <TankSize>300</TankSize>
-             <UsableSize>250</UsableSize>
-             <OptimalDelivery>200</OptimalDelivery>
-             <FillLocation></FillLocation>
-             <IsDifficultDelivery>false</IsDifficultDelivery>
-             <CallAhead>false</CallAhead>
-             <TankPosition>Under Ground</TankPosition>
-             <DeliveryType>Will Call</DeliveryType>
-             <EstimatedNextDeliveryDate></EstimatedNextDeliveryDate>
-             <EstimatedRunOutDate></EstimatedRunOutDate>
-             <QuantityInTankToday></QuantityInTankToday>
-             <ForecastType></ForecastType>
-             <ServiceContract></ServiceContract>
-             <PriceCode></PriceCode>
-             <Attributes></Attributes>
-         </Table>
-         <Table>
-             <bEquipmentID>555555</bEquipmentID>
-             <CustomerID>111111</CustomerID>
-             <LocationID>77</LocationID>
-             <Inactive>false</Inactive>
-             <TaxSchedule>West Virginia</TaxSchedule>
-             <DeliveryBillToLocationID>77</DeliveryBillToLocationID>
-             <ServiceBillToLocationID>77</ServiceBillToLocationID>
-             <EquipmentType>Fuel Tank</EquipmentType>
-             <SalesPerson></SalesPerson>
-             <EquipmentDescription>Tank 1 Will Call</EquipmentDescription>
-             <Instructions></Instructions>
-             <Burner></Burner>
-             <Nozzle></Nozzle>
-             <SmokePipe></SmokePipe>
-             <Manufacturer>manufacturerr</Manufacturer>
-             <Model>modelpooo</Model>
-             <SerialNumber>333334</SerialNumber>
+             <SerialNumber>757576</SerialNumber>
              <PurchaseDate></PurchaseDate>
              <WarrantyStartDate></WarrantyStartDate>
              <WarrantyEndDate></WarrantyEndDate>
@@ -260,7 +216,7 @@ paths:
                   value: '<Results>
   <DataSet>
     <Table>
-      <CustomerID>111111</CustomerID>
+      <CustomerID>77755</CustomerID>
       <CustomerStatus>Active</CustomerStatus>
       <CustomerType>Agriculture</CustomerType>
       <EmailAddress>ayadav11@yopmail.com</EmailAddress>
@@ -404,9 +360,6 @@ components:
     <Table>
       <CustomerID>77755</CustomerID>
     </Table>
-    <Table>
-      <CustomerID>111111</CustomerID>
-    </Table>
   </DataSet>
 </Results>'
     Accounts:
@@ -457,7 +410,7 @@ components:
         Value: '<Results>
   <DataSet>
     <Table>
-      <CustomerID>111111</CustomerID>
+      <CustomerID>94603</CustomerID>
       <CustomerStatus>Active</CustomerStatus>
       <CustomerType>Agriculture</CustomerType>
       <EmailAddress>dt2013@hotmail.com</EmailAddress>
