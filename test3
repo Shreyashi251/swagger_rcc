@@ -56,6 +56,9 @@ paths:
 	<Table>
       <TankID>56</TankID>
     </Table>
+	<Table>
+      <TankID>56</TankID>
+    </Table>
   </DataSet>
 </Results>'
                     
