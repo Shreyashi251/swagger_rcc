@@ -1,7 +1,7 @@
 ---
 openapi: 3.0.2
 info:
-  title: API Cargas - 3.0
+  title: API Cargas - 1.0
   version: 1.0.0
   description: API definition of Cargas
   contact:
@@ -23,10 +23,10 @@ paths:
                   value: '<Results>
   <DataSet>
     <Table>
-      <CustomerID>99999</CustomerID>
+      <CustomerID>77755</CustomerID>
     </Table>
     <Table>
-      <CustomerID>99999</CustomerID>
+      <CustomerID>12312313</CustomerID>
     </Table>
   </DataSet>
 </Results>'
@@ -34,6 +34,175 @@ paths:
           description: Changed Customers
       operationId: GetNewCustomers
       summary: Get New Customers
+  /API/GetPropaneTanks:
+    summary: Get list of new customers
+    post:
+      responses:
+        "200":
+          content:
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/Customers'
+              examples:
+                New Customers Example:
+                  value: '<Results>
+  <DataSet>
+    <Table>
+      <TankID>55</TankID>
+    </Table>
+    <Table>
+      <TankID>55</TankID>
+    </Table>
+	<Table>
+      <TankID>56</TankID>
+    </Table>
+	<Table>
+      <TankID>56</TankID>
+    </Table>
+  </DataSet>
+</Results>'
+                    
+          description: Get new Assets
+      operationId: GetNewAssets
+      summary: Get New Customers
+  /API/GetChangedTanks:
+    summary: Get list of new customers
+    post:
+      responses:
+        "200":
+          content:
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/Customers'
+              examples:
+                New Customers Example:
+                  value: '<Results>
+  <DataSet>
+    <Table>
+      <EquipmentID>55</EquipmentID>
+      <CustomerID>77755</CustomerID>
+      <Date>159159</Date>
+    </Table>
+	<Table>
+      <EquipmentID>56</EquipmentID>
+      <CustomerID>77755</CustomerID>
+      <Date>159159</Date>
+    </Table>
+    <Table>
+      <EquipmentID>77</EquipmentID>
+      <CustomerID>12312313</CustomerID>
+      <Date>159159</Date>
+    </Table>
+  </DataSet>
+</Results>'
+                    
+          description: Get changed Assets
+      operationId: GetChangedAssets
+      summary: Get Changed Assets
+      
+  /API/GetAllEquipmentByEquipmentID:
+    summary: Get list of new customers
+    post:
+      responses:
+        "200":
+          content:
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/Customers'
+              examples:
+                New Customers Example:
+                  value: '<Results>
+  <DataSet>
+    <Table>
+             <bEquipmentID>55</bEquipmentID>
+             <CustomerID>77755</CustomerID>
+             <LocationID>77</LocationID>
+             <Inactive>false</Inactive>
+             <TaxSchedule>West Virginia</TaxSchedule>
+             <DeliveryBillToLocationID>77</DeliveryBillToLocationID>
+             <ServiceBillToLocationID>77</ServiceBillToLocationID>
+             <EquipmentType>Fuel Tank</EquipmentType>
+             <SalesPerson></SalesPerson>
+             <EquipmentDescription>Tank 1 Will Call</EquipmentDescription>
+             <Instructions></Instructions>
+             <Burner></Burner>
+             <Nozzle></Nozzle>
+             <SmokePipe></SmokePipe>
+             <Manufacturer>manufacturerr</Manufacturer>
+             <Model>modelpooo</Model>
+             <SerialNumber>757575</SerialNumber>
+             <PurchaseDate></PurchaseDate>
+             <WarrantyStartDate></WarrantyStartDate>
+             <WarrantyEndDate></WarrantyEndDate>
+             <NonFuelTaxSchedule></NonFuelTaxSchedule>
+             <TaxCode1></TaxCode1>
+             <TaxCode2></TaxCode2>
+             <FuelItem>PROPANE</FuelItem>
+             <FuelType>PROPANE</FuelType>
+             <TankSize>300</TankSize>
+             <UsableSize>250</UsableSize>
+             <OptimalDelivery>200</OptimalDelivery>
+             <FillLocation></FillLocation>
+             <IsDifficultDelivery>false</IsDifficultDelivery>
+             <CallAhead>false</CallAhead>
+             <TankPosition>Under Ground</TankPosition>
+             <DeliveryType>Will Call</DeliveryType>
+             <EstimatedNextDeliveryDate></EstimatedNextDeliveryDate>
+             <EstimatedRunOutDate></EstimatedRunOutDate>
+             <QuantityInTankToday></QuantityInTankToday>
+             <ForecastType></ForecastType>
+             <ServiceContract></ServiceContract>
+             <PriceCode></PriceCode>
+             <Attributes></Attributes>
+         </Table>
+		 <Table>
+             <bEquipmentID>56</bEquipmentID>
+             <CustomerID>77755</CustomerID>
+             <LocationID>77</LocationID>
+             <Inactive>false</Inactive>
+             <TaxSchedule>West Virginia</TaxSchedule>
+             <DeliveryBillToLocationID>77</DeliveryBillToLocationID>
+             <ServiceBillToLocationID>77</ServiceBillToLocationID>
+             <EquipmentType>Fuel Tank</EquipmentType>
+             <SalesPerson></SalesPerson>
+             <EquipmentDescription>Tank 1 Will Call</EquipmentDescription>
+             <Instructions></Instructions>
+             <Burner></Burner>
+             <Nozzle></Nozzle>
+             <SmokePipe></SmokePipe>
+             <Manufacturer>manufacturerr</Manufacturer>
+             <Model>modelpooo</Model>
+             <SerialNumber>757576</SerialNumber>
+             <PurchaseDate></PurchaseDate>
+             <WarrantyStartDate></WarrantyStartDate>
+             <WarrantyEndDate></WarrantyEndDate>
+             <NonFuelTaxSchedule></NonFuelTaxSchedule>
+             <TaxCode1></TaxCode1>
+             <TaxCode2></TaxCode2>
+             <FuelItem>PROPANE</FuelItem>
+             <FuelType>PROPANE</FuelType>
+             <TankSize>300</TankSize>
+             <UsableSize>250</UsableSize>
+             <OptimalDelivery>200</OptimalDelivery>
+             <FillLocation></FillLocation>
+             <IsDifficultDelivery>false</IsDifficultDelivery>
+             <CallAhead>false</CallAhead>
+             <TankPosition>Under Ground</TankPosition>
+             <DeliveryType>Will Call</DeliveryType>
+             <EstimatedNextDeliveryDate></EstimatedNextDeliveryDate>
+             <EstimatedRunOutDate></EstimatedRunOutDate>
+             <QuantityInTankToday></QuantityInTankToday>
+             <ForecastType></ForecastType>
+             <ServiceContract></ServiceContract>
+             <PriceCode></PriceCode>
+             <Attributes></Attributes>
+         </Table>
+  </DataSet>
+</Results>'
+                    
+          description: Get changed Assets
+      operationId: get EQuip
+      summary: Get Changed Assets
   /API/GetCustomerAccount:
     summary: Get list of customer accounts
     post:
@@ -53,7 +222,7 @@ paths:
                   value: '<Results>
   <DataSet>
     <Table>
-      <CustomerID>99999</CustomerID>
+      <CustomerID>77755</CustomerID>
       <CustomerStatus>Active</CustomerStatus>
       <CustomerType>Agriculture</CustomerType>
       <EmailAddress>ayadav11@yopmail.com</EmailAddress>
@@ -64,7 +233,8 @@ paths:
       <State>sdasdasd2</State>
       <Zipcode>87895552</Zipcode>
       <ContactPerson>adasdsa2</ContactPerson>
-    
+      <CustomerLastName>singh136470</CustomerLastName>
+      <CustomerFirstName>shreyashi136470</CustomerFirstName>
       <PrimaryPhone>7878978782</PrimaryPhone>
     </Table>
   </DataSet>
@@ -103,6 +273,7 @@ paths:
      <ContactPerson>dasda22</ContactPerson>
       <Inactive>false</Inactive>
       <LocationType></LocationType>
+      <bLocationID>77</bLocationID>
       <PhoneNumber>(507) 227-4738</PhoneNumber>
     </Table>
     <Table>
@@ -116,6 +287,7 @@ paths:
       <ContactPerson></ContactPerson>
       <Inactive>false</Inactive>
       <LocationType></LocationType>
+      <bLocationID>45667</bLocationID>
       <PhoneNumber>(507) 227-4738</PhoneNumber>
     </Table>
    
@@ -126,6 +298,13 @@ paths:
       summary: Get Customer Locations
 components:
   schemas:
+    TankID:
+      type: object
+      properties:
+        CustomerID:
+          type: string
+          description: Tank Id
+          example: 55
     CustomerId:
       type: object
       properties:
@@ -185,7 +364,7 @@ components:
       <CustomerID>12312312</CustomerID>
     </Table>
     <Table>
-      <CustomerID>12312112</CustomerID>
+      <CustomerID>77755</CustomerID>
     </Table>
   </DataSet>
 </Results>'
@@ -337,4 +516,4 @@ components:
       <PhoneNumber>(507) 227-4738</PhoneNumber>
     </Table>
   </DataSet>
-</Results>'      
+</Results>'
