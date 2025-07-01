@@ -269,7 +269,7 @@ paths:
       <Address3></Address3>
       <City>dsfsdf</City> 
       <State>dasdas</State>
-      <Zipcode>546546422</Zipcode>
+      <Zipcode></Zipcode>
      <ContactPerson>dasda22</ContactPerson>
       <Inactive>false</Inactive>
       <LocationType></LocationType>
@@ -283,7 +283,7 @@ paths:
       <Address3></Address3>
       <City>ADRIAN</City>
       <State>MN</State>
-      <Zipcode>56110</Zipcode>
+      <Zipcode></Zipcode>
       <ContactPerson></ContactPerson>
       <Inactive>false</Inactive>
       <LocationType></LocationType>
