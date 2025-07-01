@@ -225,7 +225,7 @@ paths:
       <CustomerID>77755</CustomerID>
       <CustomerStatus>Active</CustomerStatus>
       <CustomerType>Agriculture</CustomerType>
-      <EmailAddress>ayadav11@yopmail.com</EmailAddress>
+      <EmailAddress></EmailAddress>
       <Address1>PO BOX4422</Address1>
       <Address2></Address2>
       <Address3></Address3>
@@ -233,7 +233,7 @@ paths:
       <State>sdasdasd2</State>
       <Zipcode>87895552</Zipcode>
       <ContactPerson>adasdsa2</ContactPerson>
-      <CustomerLastName>singh136470</CustomerLastName>
+      <CustomerLastName></CustomerLastName>
       <CustomerFirstName>shreyashi136470</CustomerFirstName>
       <PrimaryPhone>7878978782</PrimaryPhone>
     </Table>
