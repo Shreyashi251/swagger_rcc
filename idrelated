@@ -114,9 +114,9 @@ paths:
                   value: '<Results>
   <DataSet>
     <Table>
-             <bEquipmentID>09090</bEquipmentID>
+             <bEquipmentID>55</bEquipmentID>
              <CustomerID>77755</CustomerID>
-             <LocationID>77</LocationID>
+             <LocationID>9090909</LocationID>
              <Inactive>false</Inactive>
              <TaxSchedule>West Virginia</TaxSchedule>
              <DeliveryBillToLocationID>77</DeliveryBillToLocationID>
@@ -156,9 +156,9 @@ paths:
              <Attributes></Attributes>
          </Table>
 		 <Table>
-             <bEquipmentID>0000</bEquipmentID>
+             <bEquipmentID>56</bEquipmentID>
              <CustomerID>77755</CustomerID>
-             <LocationID>77</LocationID>
+             <LocationID>6768</LocationID>
              <Inactive>false</Inactive>
              <TaxSchedule>West Virginia</TaxSchedule>
              <DeliveryBillToLocationID>77</DeliveryBillToLocationID>
