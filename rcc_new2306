@@ -1,0 +1,1585 @@
+{
+  "openapi": "3.0.2",
+  "info": {
+    "title": "API RCC - 1.0",
+    "version": "1.0.0",
+    "description": "API definition of RCC",
+    "contact": {
+      "name": "RCC-asdasdad",
+      "url": "https://asddasdasd",
+      "email": "achyuth@mailinator.com"
+    }
+  },
+  "paths": {
+    "/Interface/Customer/Get/Ids": {
+      "summary": "Get list of new customers",
+      "parameters": [
+        {
+          "in": "query",
+          "name": "lastUpdatedSince",
+          "schema": {
+            "type": "string"
+          },
+          "description": "The number of items to skip before starting to collect the result set"
+        }
+      ],
+      "get": {
+        "operationId": "GetNewCustomers",
+        "summary": "Get customer Ids",
+        "responses": {
+          "200": {
+            "description": "Changed Customers",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "CustomerBases": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "AccountNumber": {
+                            "type": "number",
+                            "description": ""
+                          },
+                          "CustomerId": {
+                            "type": "string",
+                            "description": ""
+                          }
+                        }
+                      }
+                    },
+                    "Result": {
+                      "type": "boolean",
+                      "description": ""
+                    },
+                    "ErrorCode": {
+                      "type": "string",
+                      "nullable": true,
+                      "description": ""
+                    },
+                    "ErrorMessage": {
+                      "type": "string",
+                      "nullable": true,
+                      "description": ""
+                    }
+                  }
+                },
+                "examples": {
+                  "New Customers Example": {
+                    "value": {
+                      "CustomerBases": [
+                        {
+                          "AccountNumber": 0,
+                          "CustomerId": ""
+                        }
+                      ],
+                      "Result": true,
+                      "ErrorCode": null,
+                      "ErrorMessage": null
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Interface/Customer/GetList": {
+      "summary": "Get list of customer accounts",
+      "parameters": [
+        {
+          "in": "query",
+          "name": "filter",
+          "schema": {
+            "type": "string"
+          },
+          "description": "The number of items to skip before starting to collect the result set"
+        }
+      ],
+      "get": {
+        "operationId": "Get Customer Details",
+        "summary": "Get Customer Details",
+        "responses": {
+          "200": {
+            "description": "Changed Customer Details",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "Customer": {
+                      "type": "string",
+                      "nullable": true,
+                      "description": ""
+                    },
+                    "Customers": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "Id": {
+                            "type": "string",
+                            "nullable": true,
+                            "description": ""
+                          },
+                          "CustomerId": {
+                            "type": "string",
+                            "description": ""
+                          },
+                          "BranchNumber": {
+                            "type": "string",
+                            "description": ""
+                          },
+                          "Name": {
+                            "type": "string",
+                            "description": ""
+                          },
+                          "Contacts": {
+                            "type": "array",
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "Title": {
+                                  "type": "string",
+                                  "nullable": true,
+                                  "description": ""
+                                },
+                                "FirstName": {
+                                  "type": "string",
+                                  "description": ""
+                                },
+                                "MiddleName": {
+                                  "type": "string",
+                                  "nullable": true,
+                                  "description": ""
+                                },
+                                "LastName": {
+                                  "type": "string",
+                                  "description": ""
+                                },
+                                "Suffix": {
+                                  "type": "string",
+                                  "nullable": true,
+                                  "description": ""
+                                },
+                                "PrimaryEmailAddr": {
+                                  "type": "string",
+                                  "description": ""
+                                },
+                                "Cc": {
+                                  "type": "string",
+                                  "nullable": true,
+                                  "description": ""
+                                },
+                                "Phone": {
+                                  "type": "string",
+                                  "description": ""
+                                },
+                                "PhoneExt": {
+                                  "type": "string",
+                                  "nullable": true,
+                                  "description": ""
+                                },
+                                "PhoneType": {
+                                  "type": "string",
+                                  "description": ""
+                                },
+                                "Fax": {
+                                  "type": "string",
+                                  "nullable": true,
+                                  "description": ""
+                                }
+                              }
+                            }
+                          },
+                          "BillingAddress": {
+                            "type": "object",
+                            "properties": {
+                              "Address1": {
+                                "type": "string",
+                                "description": ""
+                              },
+                              "Address2": {
+                                "type": "string",
+                                "description": ""
+                              },
+                              "Address3": {
+                                "type": "string",
+                                "nullable": true,
+                                "description": ""
+                              },
+                              "Address4": {
+                                "type": "string",
+                                "nullable": true,
+                                "description": ""
+                              },
+                              "Address5": {
+                                "type": "string",
+                                "nullable": true,
+                                "description": ""
+                              },
+                              "City": {
+                                "type": "string",
+                                "description": ""
+                              },
+                              "State": {
+                                "type": "string",
+                                "description": ""
+                              },
+                              "PostalCode": {
+                                "type": "string",
+                                "description": ""
+                              },
+                              "Country": {
+                                "type": "string",
+                                "nullable": true,
+                                "description": ""
+                              },
+                              "Note": {
+                                "type": "string",
+                                "nullable": true,
+                                "description": ""
+                              },
+                              "Latitude": {
+                                "type": "number",
+                                "description": ""
+                              },
+                              "Longitude": {
+                                "type": "number",
+                                "description": ""
+                              }
+                            }
+                          },
+                          "Notes": {
+                            "type": "string",
+                            "nullable": true,
+                            "description": ""
+                          },
+                          "CurrentBalance": {
+                            "type": "number",
+                            "description": ""
+                          },
+                          "CreditLimit": {
+                            "type": "number",
+                            "description": ""
+                          },
+                          "StartCode": {
+                            "type": "string",
+                            "nullable": true,
+                            "description": ""
+                          },
+                          "TaxClass": {
+                            "type": "string",
+                            "nullable": true,
+                            "description": ""
+                          },
+                          "TaxGroup": {
+                            "type": "string",
+                            "nullable": true,
+                            "description": ""
+                          },
+                          "TaxLicenseNumber": {
+                            "type": "string",
+                            "nullable": true,
+                            "description": ""
+                          },
+                          "IsActive": {
+                            "type": "boolean",
+                            "description": ""
+                          },
+                          "IsCommercial": {
+                            "type": "boolean",
+                            "description": ""
+                          },
+                          "RunCode": {
+                            "type": "number",
+                            "description": ""
+                          },
+                          "Locations": {
+                            "type": "array",
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "Id": {
+                                  "type": "string",
+                                  "nullable": true,
+                                  "description": ""
+                                },
+                                "LocationNumber": {
+                                  "type": "number",
+                                  "description": ""
+                                },
+                                "Name": {
+                                  "type": "string",
+                                  "description": ""
+                                },
+                                "DeliveryAddress": {
+                                  "type": "object",
+                                  "properties": {
+                                    "Address1": {
+                                      "type": "string",
+                                      "description": ""
+                                    },
+                                    "Address2": {
+                                      "type": "string",
+                                      "description": ""
+                                    },
+                                    "Address3": {
+                                      "type": "string",
+                                      "nullable": true,
+                                      "description": ""
+                                    },
+                                    "Address4": {
+                                      "type": "string",
+                                      "nullable": true,
+                                      "description": ""
+                                    },
+                                    "Address5": {
+                                      "type": "string",
+                                      "nullable": true,
+                                      "description": ""
+                                    },
+                                    "City": {
+                                      "type": "string",
+                                      "description": ""
+                                    },
+                                    "State": {
+                                      "type": "string",
+                                      "description": ""
+                                    },
+                                    "PostalCode": {
+                                      "type": "string",
+                                      "description": ""
+                                    },
+                                    "Country": {
+                                      "type": "string",
+                                      "description": ""
+                                    },
+                                    "Note": {
+                                      "type": "string",
+                                      "nullable": true,
+                                      "description": ""
+                                    },
+                                    "Latitude": {
+                                      "type": "number",
+                                      "description": ""
+                                    },
+                                    "Longitude": {
+                                      "type": "number",
+                                      "description": ""
+                                    }
+                                  }
+                                },
+                                "StartCode": {
+                                  "type": "string",
+                                  "nullable": true,
+                                  "description": ""
+                                },
+                                "TaxClass": {
+                                  "type": "string",
+                                  "nullable": true,
+                                  "description": ""
+                                },
+                                "TaxGroup": {
+                                  "type": "string",
+                                  "nullable": true,
+                                  "description": ""
+                                },
+                                "HeatCapacity": {
+                                  "type": "number",
+                                  "description": ""
+                                }
+                              }
+                            }
+                          },
+                          "Contracts": {
+                            "type": "string",
+                            "nullable": true,
+                            "description": ""
+                          }
+                        }
+                      }
+                    },
+                    "Result": {
+                      "type": "boolean",
+                      "description": ""
+                    },
+                    "ErrorCode": {
+                      "type": "string",
+                      "nullable": true,
+                      "description": ""
+                    },
+                    "ErrorMessage": {
+                      "type": "string",
+                      "nullable": true,
+                      "description": ""
+                    }
+                  }
+                },
+                "examples": {
+                  "Customer Details Example": {
+                    "value": {
+                      "Customer": null,
+                      "Customers": [
+                        {
+                          "Id": null,
+                          "CustomerId": "MARSPE",
+                          "BranchNumber": "A000",
+                          "Name": "Marketing Specialties",
+                          "Contacts": [
+                            {
+                              "Title": null,
+                              "FirstName": "John",
+                              "MiddleName": null,
+                              "LastName": "Michaels",
+                              "Suffix": null,
+                              "PrimaryEmailAddr": "jmichaels@mar.com",
+                              "Cc": null,
+                              "Phone": "3202311211",
+                              "PhoneExt": null,
+                              "PhoneType": "Home",
+                              "Fax": null
+                            },
+                            {
+                              "Title": null,
+                              "FirstName": "Mike",
+                              "MiddleName": null,
+                              "LastName": "Peterson",
+                              "Suffix": null,
+                              "PrimaryEmailAddr": "mpeterson@mar.com",
+                              "Cc": null,
+                              "Phone": "3202311212",
+                              "PhoneExt": null,
+                              "PhoneType": "Home",
+                              "Fax": null
+                            },
+                            {
+                              "Title": null,
+                              "FirstName": "Jan",
+                              "MiddleName": null,
+                              "LastName": "Smith",
+                              "Suffix": null,
+                              "PrimaryEmailAddr": "jsmith@mar.com",
+                              "Cc": null,
+                              "Phone": "5003327897",
+                              "PhoneExt": null,
+                              "PhoneType": "Home",
+                              "Fax": null
+                            }
+                          ],
+                          "BillingAddress": {
+                            "Address1": "81210 405th St",
+                            "Address2": "",
+                            "Address3": null,
+                            "Address4": null,
+                            "Address5": null,
+                            "City": "Bird Island",
+                            "State": "MN",
+                            "PostalCode": "55310",
+                            "Country": null,
+                            "Note": null,
+                            "Latitude": 0,
+                            "Longitude": 0
+                          },
+                          "Notes": null,
+                          "CurrentBalance": 0,
+                          "CreditLimit": 4500,
+                          "StartCode": null,
+                          "TaxClass": null,
+                          "TaxGroup": null,
+                          "TaxLicenseNumber": null,
+                          "IsActive": true,
+                          "IsCommercial": false,
+                          "RunCode": 0,
+                          "Locations": [
+                            {
+                              "Id": null,
+                              "LocationNumber": 1,
+                              "Name": "Shop",
+                              "DeliveryAddress": {
+                                "Address1": "88889 405th St",
+                                "Address2": "",
+                                "Address3": null,
+                                "Address4": null,
+                                "Address5": null,
+                                "City": "Cokato",
+                                "State": "MN",
+                                "PostalCode": "553210",
+                                "Country": "",
+                                "Note": null,
+                                "Latitude": 0,
+                                "Longitude": 0
+                              },
+                              "StartCode": null,
+                              "TaxClass": null,
+                              "TaxGroup": null,
+                              "HeatCapacity": 0
+                            },
+                            {
+                              "Id": null,
+                              "LocationNumber": 2,
+                              "Name": "Hogs",
+                              "DeliveryAddress": {
+                                "Address1": "81387 County Road 3",
+                                "Address2": "",
+                                "Address3": null,
+                                "Address4": null,
+                                "Address5": null,
+                                "City": "Bird Island",
+                                "State": "MN",
+                                "PostalCode": "55310",
+                                "Country": "",
+                                "Note": null,
+                                "Latitude": 0,
+                                "Longitude": 0
+                              },
+                              "StartCode": null,
+                              "TaxClass": null,
+                              "TaxGroup": null,
+                              "HeatCapacity": 0
+                            },
+                            {
+                              "Id": null,
+                              "LocationNumber": 3,
+                              "Name": "Tdry",
+                              "DeliveryAddress": {
+                                "Address1": "40304 870th AVe",
+                                "Address2": "",
+                                "Address3": null,
+                                "Address4": null,
+                                "Address5": null,
+                                "City": "Bird Island",
+                                "State": "MN",
+                                "PostalCode": "55310",
+                                "Country": "",
+                                "Note": null,
+                                "Latitude": 0,
+                                "Longitude": 0
+                              },
+                              "StartCode": null,
+                              "TaxClass": null,
+                              "TaxGroup": null,
+                              "HeatCapacity": 0
+                            },
+                            {
+                              "Id": null,
+                              "LocationNumber": 4,
+                              "Name": "Cndo",
+                              "DeliveryAddress": {
+                                "Address1": "211 S 10th St",
+                                "Address2": "",
+                                "Address3": null,
+                                "Address4": null,
+                                "Address5": null,
+                                "City": "Bird Island",
+                                "State": "MN",
+                                "PostalCode": "55310",
+                                "Country": "",
+                                "Note": null,
+                                "Latitude": 0,
+                                "Longitude": 0
+                              },
+                              "StartCode": null,
+                              "TaxClass": null,
+                              "TaxGroup": null,
+                              "HeatCapacity": 0
+                            },
+                            {
+                              "Id": null,
+                              "LocationNumber": 5,
+                              "Name": "Pool",
+                              "DeliveryAddress": {
+                                "Address1": "88889 405th St",
+                                "Address2": "",
+                                "Address3": null,
+                                "Address4": null,
+                                "Address5": null,
+                                "City": "Bird Island",
+                                "State": "MN",
+                                "PostalCode": "55310",
+                                "Country": "",
+                                "Note": null,
+                                "Latitude": 0,
+                                "Longitude": 0
+                              },
+                              "StartCode": null,
+                              "TaxClass": null,
+                              "TaxGroup": null,
+                              "HeatCapacity": 0
+                            },
+                            {
+                              "Id": null,
+                              "LocationNumber": 6,
+                              "Name": "Shed",
+                              "DeliveryAddress": {
+                                "Address1": "80301 County Road 3",
+                                "Address2": "",
+                                "Address3": null,
+                                "Address4": null,
+                                "Address5": null,
+                                "City": "Hector",
+                                "State": "MN",
+                                "PostalCode": "55342",
+                                "Country": "",
+                                "Note": null,
+                                "Latitude": 0,
+                                "Longitude": 0
+                              },
+                              "StartCode": null,
+                              "TaxClass": null,
+                              "TaxGroup": null,
+                              "HeatCapacity": 0
+                            },
+                            {
+                              "Id": null,
+                              "LocationNumber": 7,
+                              "Name": "Inds",
+                              "DeliveryAddress": {
+                                "Address1": "80301 County Road 3",
+                                "Address2": "",
+                                "Address3": null,
+                                "Address4": null,
+                                "Address5": null,
+                                "City": "Hector",
+                                "State": "MN",
+                                "PostalCode": "55342",
+                                "Country": "",
+                                "Note": null,
+                                "Latitude": 0,
+                                "Longitude": 0
+                              },
+                              "StartCode": null,
+                              "TaxClass": null,
+                              "TaxGroup": null,
+                              "HeatCapacity": 0
+                            },
+                            {
+                              "Id": null,
+                              "LocationNumber": 8,
+                              "Name": "Hogs",
+                              "DeliveryAddress": {
+                                "Address1": "",
+                                "Address2": "",
+                                "Address3": null,
+                                "Address4": null,
+                                "Address5": null,
+                                "City": "",
+                                "State": "",
+                                "PostalCode": "",
+                                "Country": "",
+                                "Note": null,
+                                "Latitude": 0,
+                                "Longitude": 0
+                              },
+                              "StartCode": null,
+                              "TaxClass": null,
+                              "TaxGroup": null,
+                              "HeatCapacity": 0
+                            },
+                            {
+                              "Id": null,
+                              "LocationNumber": 99,
+                              "Name": "",
+                              "DeliveryAddress": {
+                                "Address1": "17600 New Hope Street",
+                                "Address2": "",
+                                "Address3": null,
+                                "Address4": null,
+                                "Address5": null,
+                                "City": "Fountain Valley",
+                                "State": "CA",
+                                "PostalCode": "92708",
+                                "Country": "",
+                                "Note": null,
+                                "Latitude": 0,
+                                "Longitude": 0
+                              },
+                              "StartCode": null,
+                              "TaxClass": null,
+                              "TaxGroup": null,
+                              "HeatCapacity": 0
+                            }
+                          ],
+                          "Contracts": null
+                        }
+                      ],
+                      "Result": true,
+                      "ErrorCode": null,
+                      "ErrorMessage": null
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Token": {
+      "summary": "Get access token",
+      "post": {
+        "operationId": "Get Token",
+        "summary": "Get customer Ids",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "username": {
+                    "type": "string",
+                    "example": "achyuth"
+                  },
+                  "password": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Changed Customers",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "access_token": {
+                      "type": "string",
+                      "description": ""
+                    },
+                    "token_type": {
+                      "type": "string",
+                      "description": ""
+                    },
+                    "expires_in": {
+                      "type": "number",
+                      "description": ""
+                    },
+                    "userName": {
+                      "type": "string",
+                      "description": ""
+                    },
+                    ".issued": {
+                      "type": "string",
+                      "description": ""
+                    },
+                    ".expires": {
+                      "type": "string",
+                      "description": ""
+                    }
+                  }
+                },
+                "examples": {
+                  "New Customers Example": {
+                    "value": {
+                      "access_token": "j8Cu3D-htqLhAgj_64OO2Wn-zk5WyPa29DGTZDYwDNVhS7zlammWq-2j_q7f08wUXrUHoImdWY7qSqaOszwhWVTVswZiCMj7IXa8vSPXM80e14AGBavEPctg-lVBxMWYnhNjHbe3TcCPsCvKtKdSBT8VFEIfhp7Nd5ZrsAWCLwoP10HmCd0OWbqq62IxJ1tmTQqRdU6U3PopLpmv86yVPkdhfNyMIHC5YxmVkO3tdxGzkWAzlQ0OSs9-C8YU2K3nwoq0krgMCxVC_KMl8nWou2x0xEVSR7i2tcXiAL6jkErkQfc7xzhGiorQ06weaSSK9XN_83QcZPj7oCkzhi7Bd-whjulHHq4wAXP52Qp24hY2r_QHThD_otge94Tr1cSPmrFsVEIid0HelWiwO-X_tMyDWIzQsNdDF7ZHMnOUd6X1c_C4BSebn7a9gBcKEH0xPPF2lYOcjz5bIlth1wPc32nB9CentJsIYm3fAGWx5m7BT_6H2xvAEQo2QuTPq20eL54TcwxUJV29Ff4eAXqvGWeG-4teoQ0NFiuEORpUS3HliRKtmUoLzDeI_-UWQo8cZs8XpknwnfAXaxajYrFzfbaVASAL_qbqITcA5AKN3LKiFG8Ik2FTINdhrCUALUc6",
+                      "token_type": "bearer",
+                      "expires_in": 1209599,
+                      "userName": "demo",
+                      ".issued": "Mon, 20 Jan 2025 14:21:30 GMT",
+                      ".expires": "Mon, 03 Feb 2025 14:21:30 GMT"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Interface/Equipment/Get/Ids": {
+      "summary": "Get list of equipment ids",
+      "parameters": [
+        {
+          "in": "query",
+          "name": "installedSince",
+          "schema": {
+            "type": "string",
+            "example": "2020-06-13"
+          },
+          "description": "Return equipment installed since the supplied date"
+        }
+      ],
+      "get": {
+        "operationId": "GetEquipmentIds",
+        "summary": "Get equipment Ids",
+        "responses": {
+          "200": {
+            "description": "Equipment Ids",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "EquipmentBases": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "EquipmentId": {
+                            "type": "string",
+                            "description": ""
+                          },
+                          "CustomerId": {
+                            "type": "string",
+                            "description": ""
+                          },
+                          "AccountNo": {
+                            "type": "number",
+                            "description": ""
+                          },
+                          "LocationNo": {
+                            "type": "number",
+                            "description": ""
+                          }
+                        }
+                      }
+                    },
+                    "Data": {
+                      "nullable": true,
+                      "description": ""
+                    },
+                    "Result": {
+                      "type": "boolean",
+                      "description": ""
+                    },
+                    "Status": {
+                      "type": "string",
+                      "nullable": true,
+                      "description": ""
+                    },
+                    "Message": {
+                      "type": "string",
+                      "nullable": true,
+                      "description": ""
+                    },
+                    "Warnings": {
+                      "nullable": true,
+                      "description": ""
+                    },
+                    "ErrorCode": {
+                      "type": "string",
+                      "nullable": true,
+                      "description": ""
+                    },
+                    "ErrorMessage": {
+                      "type": "string",
+                      "nullable": true,
+                      "description": ""
+                    }
+                  }
+                },
+                "examples": {
+                  "Equipment Ids Example": {
+                    "value": {
+                      "EquipmentBases": [
+                        {
+                          "EquipmentId": "#BOBKASTANK",
+                          "CustomerId": "BOBKAS",
+                          "AccountNo": 114,
+                          "LocationNo": 1
+                        },
+                        {
+                          "EquipmentId": "456789123",
+                          "CustomerId": "HOLALB",
+                          "AccountNo": 5314,
+                          "LocationNo": 1
+                        },
+                        {
+                          "EquipmentId": "458962",
+                          "CustomerId": "COOBAI",
+                          "AccountNo": 94,
+                          "LocationNo": 1
+                        },
+                        {
+                          "EquipmentId": "5554689",
+                          "CustomerId": "COOBAI",
+                          "AccountNo": 94,
+                          "LocationNo": 1
+                        },
+                        {
+                          "EquipmentId": "58974",
+                          "CustomerId": "ACEJOE",
+                          "AccountNo": 8246,
+                          "LocationNo": 1
+                        },
+                        {
+                          "EquipmentId": "OT12345678",
+                          "CustomerId": "ONETAN",
+                          "AccountNo": 129,
+                          "LocationNo": 1
+                        },
+                        {
+                          "EquipmentId": "RS987654",
+                          "CustomerId": "TESACC",
+                          "AccountNo": 130,
+                          "LocationNo": 1
+                        },
+                        {
+                          "EquipmentId": "TANK123456789",
+                          "CustomerId": "CUSOTO",
+                          "AccountNo": 138,
+                          "LocationNo": 1
+                        },
+                        {
+                          "EquipmentId": "TANK321",
+                          "CustomerId": "CUSOTO",
+                          "AccountNo": 138,
+                          "LocationNo": 2
+                        },
+                        {
+                          "EquipmentId": "TM123456789",
+                          "CustomerId": "CUSOTO",
+                          "AccountNo": 138,
+                          "LocationNo": 1
+                        },
+                        {
+                          "EquipmentId": "WTHG123456",
+                          "CustomerId": "WORTAN",
+                          "AccountNo": 137,
+                          "LocationNo": 1
+                        },
+                        {
+                          "EquipmentId": "WTHGMONITOR01",
+                          "CustomerId": "WORTAN",
+                          "AccountNo": 137,
+                          "LocationNo": 1
+                        },
+                        {
+                          "EquipmentId": "WTHGTANK01",
+                          "CustomerId": "WORTAN",
+                          "AccountNo": 137,
+                          "LocationNo": 1
+                        }
+                      ],
+                      "Data": null,
+                      "Result": true,
+                      "Status": null,
+                      "Message": null,
+                      "Warnings": null,
+                      "ErrorCode": null,
+                      "ErrorMessage": null
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/Interface/Equipment/Get": {
+      "summary": "Get equipment details by equipment id",
+      "get": {
+        "operationId": "GetEquipmentDetails",
+        "summary": "Get equipment details",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "equipmentId",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Equipment identifier"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Equipment details",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "EquipmentWithWarnings": {
+                      "type": "array",
+                      "items": {
+                        "type": "object"
+                      }
+                    },
+                    "EquipmentList": {
+                      "type": "array",
+                      "nullable": true,
+                      "items": {
+                        "type": "object"
+                      }
+                    },
+                    "Equipment": {
+                      "type": "object",
+                      "nullable": true,
+                      "properties": {
+                        "EquipmentId": {
+                          "type": "string",
+                          "description": ""
+                        },
+                        "CustomerId": {
+                          "type": "string",
+                          "description": ""
+                        },
+                        "AccountNo": {
+                          "type": "number",
+                          "description": ""
+                        },
+                        "LocationNo": {
+                          "type": "number",
+                          "description": ""
+                        },
+                        "CustomerIdOrAcctNo": {
+                          "type": "string",
+                          "nullable": true,
+                          "description": ""
+                        },
+                        "Capacity": {
+                          "type": "number",
+                          "description": ""
+                        },
+                        "Manufacturer": {
+                          "type": "string",
+                          "description": ""
+                        },
+                        "InstallDate": {
+                          "type": "string",
+                          "format": "date-time",
+                          "description": ""
+                        },
+                        "EquipmentType": {
+                          "type": "string",
+                          "description": ""
+                        },
+                        "Model": {
+                          "type": "string",
+                          "description": ""
+                        },
+                        "Status": {
+                          "type": "string",
+                          "description": ""
+                        },
+                        "IsActive": {
+                          "type": "boolean",
+                          "description": ""
+                        },
+                        "IsCompanyOwned": {
+                          "type": "boolean",
+                          "description": ""
+                        },
+                        "ManufacturedDate": {
+                          "type": "string",
+                          "format": "date-time",
+                          "nullable": true,
+                          "description": ""
+                        },
+                        "PurchaseDate": {
+                          "type": "string",
+                          "format": "date-time",
+                          "nullable": true,
+                          "description": ""
+                        },
+                        "PurchasePrice": {
+                          "type": "number",
+                          "description": ""
+                        },
+                        "PurchaseOrderNumber": {
+                          "type": "string",
+                          "description": ""
+                        },
+                        "VendorId": {
+                          "type": "string",
+                          "description": ""
+                        },
+                        "PartNumber": {
+                          "type": "string",
+                          "description": ""
+                        }
+                      }
+                    },
+                    "Data": {
+                      "nullable": true,
+                      "description": ""
+                    },
+                    "Result": {
+                      "type": "boolean",
+                      "description": ""
+                    },
+                    "Status": {
+                      "type": "string",
+                      "nullable": true,
+                      "description": ""
+                    },
+                    "Message": {
+                      "type": "string",
+                      "nullable": true,
+                      "description": ""
+                    },
+                    "Warnings": {
+                      "nullable": true,
+                      "description": ""
+                    },
+                    "ErrorCode": {
+                      "type": "string",
+                      "nullable": true,
+                      "description": ""
+                    },
+                    "ErrorMessage": {
+                      "type": "string",
+                      "nullable": true,
+                      "description": ""
+                    }
+                  }
+                },
+                "examples": {
+                  "Equipment Details Example": {
+                    "value": {
+                      "EquipmentWithWarnings": [],
+                      "EquipmentList": null,
+                      "Equipment": {
+                        "EquipmentId": "WTHGTANK01",
+                        "CustomerId": "WORTAN",
+                        "AccountNo": 137,
+                        "LocationNo": 1,
+                        "CustomerIdOrAcctNo": null,
+                        "Capacity": 500,
+                        "Manufacturer": "",
+                        "InstallDate": "2026-01-29T00:00:00",
+                        "EquipmentType": "T",
+                        "Model": "",
+                        "Status": "Active",
+                        "IsActive": true,
+                        "IsCompanyOwned": true,
+                        "ManufacturedDate": null,
+                        "PurchaseDate": null,
+                        "PurchasePrice": 0,
+                        "PurchaseOrderNumber": "",
+                        "VendorId": "",
+                        "PartNumber": ""
+                      },
+                      "Data": null,
+                      "Result": true,
+                      "Status": "Success",
+                      "Message": null,
+                      "Warnings": null,
+                      "ErrorCode": null,
+                      "ErrorMessage": null
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/Interface/Locations/Get": {
+      "summary": "Get location details by customer and location number",
+      "get": {
+        "operationId": "GetLocationDetails",
+        "summary": "Get location details",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "customerIdOrAcctNo",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Customer ID or account number"
+          },
+          {
+            "in": "query",
+            "name": "locationNumber",
+            "required": true,
+            "schema": {
+              "type": "number"
+            },
+            "description": "Location number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Location details",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "Location": {
+                      "type": "object",
+                      "nullable": true,
+                      "properties": {
+                        "Id": {
+                          "type": "string",
+                          "nullable": true,
+                          "description": ""
+                        },
+                        "CustomerId": {
+                          "type": "string",
+                          "description": ""
+                        },
+                        "BranchCustomerIdLocation": {
+                          "type": "string",
+                          "description": ""
+                        },
+                        "AccountNumber": {
+                          "type": "number",
+                          "description": ""
+                        },
+                        "LocationNumber": {
+                          "type": "number",
+                          "description": ""
+                        },
+                        "Name": {
+                          "type": "string",
+                          "description": ""
+                        },
+                        "Type": {
+                          "type": "string",
+                          "description": ""
+                        },
+                        "Description": {
+                          "type": "string",
+                          "description": ""
+                        },
+                        "Description1": {
+                          "type": "string",
+                          "description": ""
+                        },
+                        "Description2": {
+                          "type": "string",
+                          "description": ""
+                        },
+                        "Description3": {
+                          "type": "string",
+                          "description": ""
+                        },
+                        "Description4": {
+                          "type": "string",
+                          "description": ""
+                        },
+                        "Description5": {
+                          "type": "string",
+                          "description": ""
+                        },
+                        "Description6": {
+                          "type": "string",
+                          "description": ""
+                        },
+                        "Description7": {
+                          "type": "string",
+                          "description": ""
+                        },
+                        "Description8": {
+                          "type": "string",
+                          "description": ""
+                        },
+                        "Description9": {
+                          "type": "string",
+                          "description": ""
+                        },
+                        "Description10": {
+                          "type": "string",
+                          "description": ""
+                        },
+                        "Category": {
+                          "type": "string",
+                          "description": ""
+                        },
+                        "PriceCode": {
+                          "type": "number",
+                          "description": ""
+                        },
+                        "LockPrice": {
+                          "type": "number",
+                          "description": ""
+                        },
+                        "LockDate": {
+                          "type": "string",
+                          "format": "date-time",
+                          "nullable": true,
+                          "description": ""
+                        },
+                        "Variance": {
+                          "type": "number",
+                          "description": ""
+                        },
+                        "AllowExtraCharge": {
+                          "type": "boolean",
+                          "description": ""
+                        },
+                        "Salesperson": {
+                          "type": "number",
+                          "description": ""
+                        },
+                        "Driver": {
+                          "type": "number",
+                          "description": ""
+                        },
+                        "DeliveryAddress": {
+                          "type": "object",
+                          "properties": {
+                            "Address1": {
+                              "type": "string",
+                              "description": ""
+                            },
+                            "Address2": {
+                              "type": "string",
+                              "description": ""
+                            },
+                            "Address3": {
+                              "type": "string",
+                              "nullable": true,
+                              "description": ""
+                            },
+                            "Address4": {
+                              "type": "string",
+                              "nullable": true,
+                              "description": ""
+                            },
+                            "Address5": {
+                              "type": "string",
+                              "nullable": true,
+                              "description": ""
+                            },
+                            "City": {
+                              "type": "string",
+                              "description": ""
+                            },
+                            "State": {
+                              "type": "string",
+                              "description": ""
+                            },
+                            "PostalCode": {
+                              "type": "string",
+                              "description": ""
+                            },
+                            "Country": {
+                              "type": "string",
+                              "description": ""
+                            },
+                            "Note": {
+                              "type": "string",
+                              "nullable": true,
+                              "description": ""
+                            },
+                            "Latitude": {
+                              "type": "number",
+                              "description": ""
+                            },
+                            "Longitude": {
+                              "type": "number",
+                              "description": ""
+                            }
+                          }
+                        },
+                        "Latitude": {
+                          "type": "number",
+                          "description": ""
+                        },
+                        "Longitude": {
+                          "type": "number",
+                          "description": ""
+                        },
+                        "DeliveryInstructions": {
+                          "type": "string",
+                          "description": ""
+                        },
+                        "DeliveryTicket": {
+                          "type": "string",
+                          "description": ""
+                        },
+                        "LastDeliveryDate": {
+                          "type": "string",
+                          "format": "date-time",
+                          "nullable": true,
+                          "description": ""
+                        },
+                        "TermsCode": {
+                          "type": "number",
+                          "description": ""
+                        },
+                        "StartCode": {
+                          "type": "string",
+                          "description": ""
+                        },
+                        "TaxClass": {
+                          "type": "string",
+                          "description": ""
+                        },
+                        "TaxClassDescription": {
+                          "type": "string",
+                          "description": ""
+                        },
+                        "TaxGroup": {
+                          "type": "string",
+                          "description": ""
+                        },
+                        "TaxGroupDescription": {
+                          "type": "string",
+                          "description": ""
+                        },
+                        "HeatCapacity": {
+                          "type": "number",
+                          "description": ""
+                        },
+                        "StartDate": {
+                          "type": "string",
+                          "format": "date-time",
+                          "nullable": true,
+                          "description": ""
+                        }
+                      }
+                    },
+                    "Locations": {
+                      "type": "array",
+                      "nullable": true,
+                      "items": {
+                        "type": "object"
+                      }
+                    },
+                    "LocationsWithWarnings": {
+                      "type": "array",
+                      "items": {
+                        "type": "object"
+                      }
+                    },
+                    "Data": {
+                      "nullable": true,
+                      "description": ""
+                    },
+                    "Result": {
+                      "type": "boolean",
+                      "description": ""
+                    },
+                    "Status": {
+                      "type": "string",
+                      "nullable": true,
+                      "description": ""
+                    },
+                    "Message": {
+                      "type": "string",
+                      "nullable": true,
+                      "description": ""
+                    },
+                    "Warnings": {
+                      "nullable": true,
+                      "description": ""
+                    },
+                    "ErrorCode": {
+                      "type": "string",
+                      "nullable": true,
+                      "description": ""
+                    },
+                    "ErrorMessage": {
+                      "type": "string",
+                      "nullable": true,
+                      "description": ""
+                    }
+                  }
+                },
+                "examples": {
+                  "Location Details Example": {
+                    "value": {
+                      "Location": {
+                        "Id": null,
+                        "CustomerId": "WORTAN",
+                        "BranchCustomerIdLocation": "A000WORTAN1",
+                        "AccountNumber": 137,
+                        "LocationNumber": 1,
+                        "Name": "",
+                        "Type": "DD",
+                        "Description": "",
+                        "Description1": "",
+                        "Description2": "",
+                        "Description3": "",
+                        "Description4": "",
+                        "Description5": "",
+                        "Description6": "",
+                        "Description7": "",
+                        "Description8": "",
+                        "Description9": "",
+                        "Description10": "",
+                        "Category": "LBR1",
+                        "PriceCode": 0,
+                        "LockPrice": 0,
+                        "LockDate": null,
+                        "Variance": 0,
+                        "AllowExtraCharge": true,
+                        "Salesperson": 0,
+                        "Driver": 0,
+                        "DeliveryAddress": {
+                          "Address1": "",
+                          "Address2": "",
+                          "Address3": null,
+                          "Address4": null,
+                          "Address5": null,
+                          "City": "",
+                          "State": "",
+                          "PostalCode": "",
+                          "Country": "USA",
+                          "Note": null,
+                          "Latitude": 0,
+                          "Longitude": 0
+                        },
+                        "Latitude": 0,
+                        "Longitude": 0,
+                        "DeliveryInstructions": "",
+                        "DeliveryTicket": "Y",
+                        "LastDeliveryDate": null,
+                        "TermsCode": 0,
+                        "StartCode": "",
+                        "TaxClass": "T",
+                        "TaxClassDescription": "MN Sales Tax Calculated",
+                        "TaxGroup": "MN",
+                        "TaxGroupDescription": "Minnesota Tax Header Record",
+                        "HeatCapacity": 500,
+                        "StartDate": null
+                      },
+                      "Locations": null,
+                      "LocationsWithWarnings": [],
+                      "Data": null,
+                      "Result": true,
+                      "Status": "Success",
+                      "Message": null,
+                      "Warnings": null,
+                      "ErrorCode": null,
+                      "ErrorMessage": null
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  }
+}
