@@ -133,10 +133,6 @@
                             "type": "string",
                             "description": ""
                           },
-                          "AccountNumber": {
-                            "type": "number",
-                            "description": ""
-                          },
                           "BranchNumber": {
                             "type": "string",
                             "description": ""
@@ -435,7 +431,6 @@
                         {
                           "Id": null,
                           "CustomerId": "WORTAN",
-                          "AccountNumber": 137,
                           "BranchNumber": "A000",
                           "Name": "Worthington Tank Rentals",
                           "Contacts": [
@@ -467,7 +462,7 @@
                             "Latitude": 0,
                             "Longitude": 0
                           },
-                          "Notes": "Customer and locations are synced before importing equipment for account 137",
+                          "Notes": "Customer synced before equipment import",
                           "CurrentBalance": 0,
                           "CreditLimit": 5000,
                           "StartCode": null,
@@ -507,7 +502,6 @@
                         {
                           "Id": null,
                           "CustomerId": "CUSOTO",
-                          "AccountNumber": 138,
                           "BranchNumber": "A000",
                           "Name": "Custom Oil Transport",
                           "Contacts": [
@@ -539,7 +533,7 @@
                             "Latitude": 0,
                             "Longitude": 0
                           },
-                          "Notes": "Customer and locations are synced before importing equipment for account 138",
+                          "Notes": "Customer synced before equipment import",
                           "CurrentBalance": 0,
                           "CreditLimit": 7500,
                           "StartCode": null,
@@ -1348,7 +1342,7 @@
                         "LocationNumber": 1,
                         "Name": "Fountain Valley Yard",
                         "Type": "DD",
-                        "Description": "Primary delivery location for equipment WTHGTANK01 and WTHGMONITOR01",
+                        "Description": "Primary delivery location for WORTAN assets",
                         "Description1": "",
                         "Description2": "",
                         "Description3": "",
