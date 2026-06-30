@@ -133,6 +133,10 @@
                             "type": "string",
                             "description": ""
                           },
+                          "AccountNumber": {
+                            "type": "number",
+                            "description": ""
+                          },
                           "BranchNumber": {
                             "type": "string",
                             "description": ""
@@ -431,6 +435,7 @@
                         {
                           "Id": null,
                           "CustomerId": "WORTAN",
+                          "AccountNumber": 137,
                           "BranchNumber": "A000",
                           "Name": "Worthington Tank Rentals",
                           "Contacts": [
@@ -502,6 +507,7 @@
                         {
                           "Id": null,
                           "CustomerId": "CUSOTO",
+                          "AccountNumber": 138,
                           "BranchNumber": "A000",
                           "Name": "Custom Oil Transport",
                           "Contacts": [
