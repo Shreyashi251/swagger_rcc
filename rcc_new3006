@@ -71,8 +71,12 @@
                     "value": {
                       "CustomerBases": [
                         {
-                          "AccountNumber": 0,
-                          "CustomerId": ""
+                          "AccountNumber": 137,
+                          "CustomerId": "WORTAN"
+                        },
+                        {
+                          "AccountNumber": 138,
+                          "CustomerId": "CUSOTO"
                         }
                       ],
                       "Result": true,
@@ -426,263 +430,53 @@
                       "Customers": [
                         {
                           "Id": null,
-                          "CustomerId": "MARSPE",
+                          "CustomerId": "WORTAN",
                           "BranchNumber": "A000",
-                          "Name": "Marketing Specialties",
+                          "Name": "Worthington Tank Rentals",
                           "Contacts": [
                             {
                               "Title": null,
-                              "FirstName": "John",
+                              "FirstName": "Walter",
                               "MiddleName": null,
-                              "LastName": "Michaels",
+                              "LastName": "Tanner",
                               "Suffix": null,
-                              "PrimaryEmailAddr": "jmichaels@mar.com",
+                              "PrimaryEmailAddr": "walter.tanner@wortan.com",
                               "Cc": null,
-                              "Phone": "3202311211",
+                              "Phone": "5550100137",
                               "PhoneExt": null,
-                              "PhoneType": "Home",
-                              "Fax": null
-                            },
-                            {
-                              "Title": null,
-                              "FirstName": "Mike",
-                              "MiddleName": null,
-                              "LastName": "Peterson",
-                              "Suffix": null,
-                              "PrimaryEmailAddr": "mpeterson@mar.com",
-                              "Cc": null,
-                              "Phone": "3202311212",
-                              "PhoneExt": null,
-                              "PhoneType": "Home",
-                              "Fax": null
-                            },
-                            {
-                              "Title": null,
-                              "FirstName": "Jan",
-                              "MiddleName": null,
-                              "LastName": "Smith",
-                              "Suffix": null,
-                              "PrimaryEmailAddr": "jsmith@mar.com",
-                              "Cc": null,
-                              "Phone": "5003327897",
-                              "PhoneExt": null,
-                              "PhoneType": "Home",
+                              "PhoneType": "Office",
                               "Fax": null
                             }
                           ],
                           "BillingAddress": {
-                            "Address1": "81210 405th St",
-                            "Address2": "",
+                            "Address1": "100 Main Street",
+                            "Address2": "Suite 200",
                             "Address3": null,
                             "Address4": null,
                             "Address5": null,
-                            "City": "Bird Island",
-                            "State": "MN",
-                            "PostalCode": "55310",
-                            "Country": null,
+                            "City": "Fountain Valley",
+                            "State": "CA",
+                            "PostalCode": "92708",
+                            "Country": "USA",
                             "Note": null,
                             "Latitude": 0,
                             "Longitude": 0
                           },
-                          "Notes": null,
+                          "Notes": "Customer and locations are synced before importing equipment for account 137",
                           "CurrentBalance": 0,
-                          "CreditLimit": 4500,
+                          "CreditLimit": 5000,
                           "StartCode": null,
                           "TaxClass": null,
                           "TaxGroup": null,
                           "TaxLicenseNumber": null,
                           "IsActive": true,
-                          "IsCommercial": false,
+                          "IsCommercial": true,
                           "RunCode": 0,
                           "Locations": [
                             {
                               "Id": null,
                               "LocationNumber": 1,
-                              "Name": "Shop",
-                              "DeliveryAddress": {
-                                "Address1": "88889 405th St",
-                                "Address2": "",
-                                "Address3": null,
-                                "Address4": null,
-                                "Address5": null,
-                                "City": "Cokato",
-                                "State": "MN",
-                                "PostalCode": "553210",
-                                "Country": "",
-                                "Note": null,
-                                "Latitude": 0,
-                                "Longitude": 0
-                              },
-                              "StartCode": null,
-                              "TaxClass": null,
-                              "TaxGroup": null,
-                              "HeatCapacity": 0
-                            },
-                            {
-                              "Id": null,
-                              "LocationNumber": 2,
-                              "Name": "Hogs",
-                              "DeliveryAddress": {
-                                "Address1": "81387 County Road 3",
-                                "Address2": "",
-                                "Address3": null,
-                                "Address4": null,
-                                "Address5": null,
-                                "City": "Bird Island",
-                                "State": "MN",
-                                "PostalCode": "55310",
-                                "Country": "",
-                                "Note": null,
-                                "Latitude": 0,
-                                "Longitude": 0
-                              },
-                              "StartCode": null,
-                              "TaxClass": null,
-                              "TaxGroup": null,
-                              "HeatCapacity": 0
-                            },
-                            {
-                              "Id": null,
-                              "LocationNumber": 3,
-                              "Name": "Tdry",
-                              "DeliveryAddress": {
-                                "Address1": "40304 870th AVe",
-                                "Address2": "",
-                                "Address3": null,
-                                "Address4": null,
-                                "Address5": null,
-                                "City": "Bird Island",
-                                "State": "MN",
-                                "PostalCode": "55310",
-                                "Country": "",
-                                "Note": null,
-                                "Latitude": 0,
-                                "Longitude": 0
-                              },
-                              "StartCode": null,
-                              "TaxClass": null,
-                              "TaxGroup": null,
-                              "HeatCapacity": 0
-                            },
-                            {
-                              "Id": null,
-                              "LocationNumber": 4,
-                              "Name": "Cndo",
-                              "DeliveryAddress": {
-                                "Address1": "211 S 10th St",
-                                "Address2": "",
-                                "Address3": null,
-                                "Address4": null,
-                                "Address5": null,
-                                "City": "Bird Island",
-                                "State": "MN",
-                                "PostalCode": "55310",
-                                "Country": "",
-                                "Note": null,
-                                "Latitude": 0,
-                                "Longitude": 0
-                              },
-                              "StartCode": null,
-                              "TaxClass": null,
-                              "TaxGroup": null,
-                              "HeatCapacity": 0
-                            },
-                            {
-                              "Id": null,
-                              "LocationNumber": 5,
-                              "Name": "Pool",
-                              "DeliveryAddress": {
-                                "Address1": "88889 405th St",
-                                "Address2": "",
-                                "Address3": null,
-                                "Address4": null,
-                                "Address5": null,
-                                "City": "Bird Island",
-                                "State": "MN",
-                                "PostalCode": "55310",
-                                "Country": "",
-                                "Note": null,
-                                "Latitude": 0,
-                                "Longitude": 0
-                              },
-                              "StartCode": null,
-                              "TaxClass": null,
-                              "TaxGroup": null,
-                              "HeatCapacity": 0
-                            },
-                            {
-                              "Id": null,
-                              "LocationNumber": 6,
-                              "Name": "Shed",
-                              "DeliveryAddress": {
-                                "Address1": "80301 County Road 3",
-                                "Address2": "",
-                                "Address3": null,
-                                "Address4": null,
-                                "Address5": null,
-                                "City": "Hector",
-                                "State": "MN",
-                                "PostalCode": "55342",
-                                "Country": "",
-                                "Note": null,
-                                "Latitude": 0,
-                                "Longitude": 0
-                              },
-                              "StartCode": null,
-                              "TaxClass": null,
-                              "TaxGroup": null,
-                              "HeatCapacity": 0
-                            },
-                            {
-                              "Id": null,
-                              "LocationNumber": 7,
-                              "Name": "Inds",
-                              "DeliveryAddress": {
-                                "Address1": "80301 County Road 3",
-                                "Address2": "",
-                                "Address3": null,
-                                "Address4": null,
-                                "Address5": null,
-                                "City": "Hector",
-                                "State": "MN",
-                                "PostalCode": "55342",
-                                "Country": "",
-                                "Note": null,
-                                "Latitude": 0,
-                                "Longitude": 0
-                              },
-                              "StartCode": null,
-                              "TaxClass": null,
-                              "TaxGroup": null,
-                              "HeatCapacity": 0
-                            },
-                            {
-                              "Id": null,
-                              "LocationNumber": 8,
-                              "Name": "Hogs",
-                              "DeliveryAddress": {
-                                "Address1": "",
-                                "Address2": "",
-                                "Address3": null,
-                                "Address4": null,
-                                "Address5": null,
-                                "City": "",
-                                "State": "",
-                                "PostalCode": "",
-                                "Country": "",
-                                "Note": null,
-                                "Latitude": 0,
-                                "Longitude": 0
-                              },
-                              "StartCode": null,
-                              "TaxClass": null,
-                              "TaxGroup": null,
-                              "HeatCapacity": 0
-                            },
-                            {
-                              "Id": null,
-                              "LocationNumber": 99,
-                              "Name": "",
+                              "Name": "Fountain Valley Yard",
                               "DeliveryAddress": {
                                 "Address1": "17600 New Hope Street",
                                 "Address2": "",
@@ -692,7 +486,7 @@
                                 "City": "Fountain Valley",
                                 "State": "CA",
                                 "PostalCode": "92708",
-                                "Country": "",
+                                "Country": "USA",
                                 "Note": null,
                                 "Latitude": 0,
                                 "Longitude": 0
@@ -700,7 +494,101 @@
                               "StartCode": null,
                               "TaxClass": null,
                               "TaxGroup": null,
-                              "HeatCapacity": 0
+                              "HeatCapacity": 500
+                            }
+                          ],
+                          "Contracts": null
+                        },
+                        {
+                          "Id": null,
+                          "CustomerId": "CUSOTO",
+                          "BranchNumber": "A000",
+                          "Name": "Custom Oil Transport",
+                          "Contacts": [
+                            {
+                              "Title": null,
+                              "FirstName": "Cynthia",
+                              "MiddleName": null,
+                              "LastName": "Soto",
+                              "Suffix": null,
+                              "PrimaryEmailAddr": "cynthia.soto@cusoto.com",
+                              "Cc": null,
+                              "Phone": "5550100138",
+                              "PhoneExt": null,
+                              "PhoneType": "Office",
+                              "Fax": null
+                            }
+                          ],
+                          "BillingAddress": {
+                            "Address1": "250 Harbor Blvd",
+                            "Address2": "",
+                            "Address3": null,
+                            "Address4": null,
+                            "Address5": null,
+                            "City": "Long Beach",
+                            "State": "CA",
+                            "PostalCode": "90802",
+                            "Country": "USA",
+                            "Note": null,
+                            "Latitude": 0,
+                            "Longitude": 0
+                          },
+                          "Notes": "Customer and locations are synced before importing equipment for account 138",
+                          "CurrentBalance": 0,
+                          "CreditLimit": 7500,
+                          "StartCode": null,
+                          "TaxClass": null,
+                          "TaxGroup": null,
+                          "TaxLicenseNumber": null,
+                          "IsActive": true,
+                          "IsCommercial": true,
+                          "RunCode": 0,
+                          "Locations": [
+                            {
+                              "Id": null,
+                              "LocationNumber": 1,
+                              "Name": "Long Beach Terminal",
+                              "DeliveryAddress": {
+                                "Address1": "250 Harbor Blvd",
+                                "Address2": "Dock 1",
+                                "Address3": null,
+                                "Address4": null,
+                                "Address5": null,
+                                "City": "Long Beach",
+                                "State": "CA",
+                                "PostalCode": "90802",
+                                "Country": "USA",
+                                "Note": null,
+                                "Latitude": 0,
+                                "Longitude": 0
+                              },
+                              "StartCode": null,
+                              "TaxClass": null,
+                              "TaxGroup": null,
+                              "HeatCapacity": 1000
+                            },
+                            {
+                              "Id": null,
+                              "LocationNumber": 2,
+                              "Name": "Anaheim Backup Site",
+                              "DeliveryAddress": {
+                                "Address1": "900 Tank Farm Road",
+                                "Address2": "",
+                                "Address3": null,
+                                "Address4": null,
+                                "Address5": null,
+                                "City": "Anaheim",
+                                "State": "CA",
+                                "PostalCode": "92805",
+                                "Country": "USA",
+                                "Note": null,
+                                "Latitude": 0,
+                                "Longitude": 0
+                              },
+                              "StartCode": null,
+                              "TaxClass": null,
+                              "TaxGroup": null,
+                              "HeatCapacity": 500
                             }
                           ],
                           "Contracts": null
@@ -880,45 +768,15 @@
                     "value": {
                       "EquipmentBases": [
                         {
-                          "EquipmentId": "#BOBKASTANK",
-                          "CustomerId": "BOBKAS",
-                          "AccountNo": 114,
+                          "EquipmentId": "WTHGTANK01",
+                          "CustomerId": "WORTAN",
+                          "AccountNo": 137,
                           "LocationNo": 1
                         },
                         {
-                          "EquipmentId": "456789123",
-                          "CustomerId": "HOLALB",
-                          "AccountNo": 5314,
-                          "LocationNo": 1
-                        },
-                        {
-                          "EquipmentId": "458962",
-                          "CustomerId": "COOBAI",
-                          "AccountNo": 94,
-                          "LocationNo": 1
-                        },
-                        {
-                          "EquipmentId": "5554689",
-                          "CustomerId": "COOBAI",
-                          "AccountNo": 94,
-                          "LocationNo": 1
-                        },
-                        {
-                          "EquipmentId": "58974",
-                          "CustomerId": "ACEJOE",
-                          "AccountNo": 8246,
-                          "LocationNo": 1
-                        },
-                        {
-                          "EquipmentId": "OT12345678",
-                          "CustomerId": "ONETAN",
-                          "AccountNo": 129,
-                          "LocationNo": 1
-                        },
-                        {
-                          "EquipmentId": "RS987654",
-                          "CustomerId": "TESACC",
-                          "AccountNo": 130,
+                          "EquipmentId": "WTHGMONITOR01",
+                          "CustomerId": "WORTAN",
+                          "AccountNo": 137,
                           "LocationNo": 1
                         },
                         {
@@ -937,24 +795,6 @@
                           "EquipmentId": "TM123456789",
                           "CustomerId": "CUSOTO",
                           "AccountNo": 138,
-                          "LocationNo": 1
-                        },
-                        {
-                          "EquipmentId": "WTHG123456",
-                          "CustomerId": "WORTAN",
-                          "AccountNo": 137,
-                          "LocationNo": 1
-                        },
-                        {
-                          "EquipmentId": "WTHGMONITOR01",
-                          "CustomerId": "WORTAN",
-                          "AccountNo": 137,
-                          "LocationNo": 1
-                        },
-                        {
-                          "EquipmentId": "WTHGTANK01",
-                          "CustomerId": "WORTAN",
-                          "AccountNo": 137,
                           "LocationNo": 1
                         }
                       ],
@@ -1150,10 +990,10 @@
                         "LocationNo": 1,
                         "CustomerIdOrAcctNo": null,
                         "Capacity": 500,
-                        "Manufacturer": "",
+                        "Manufacturer": "Worthington",
                         "InstallDate": "2026-01-29T00:00:00",
                         "EquipmentType": "T",
-                        "Model": "",
+                        "Model": "WT-500",
                         "Status": "Active",
                         "IsActive": true,
                         "IsCompanyOwned": true,
@@ -1500,9 +1340,9 @@
                         "BranchCustomerIdLocation": "A000WORTAN1",
                         "AccountNumber": 137,
                         "LocationNumber": 1,
-                        "Name": "",
+                        "Name": "Fountain Valley Yard",
                         "Type": "DD",
-                        "Description": "",
+                        "Description": "Primary delivery location for equipment WTHGTANK01 and WTHGMONITOR01",
                         "Description1": "",
                         "Description2": "",
                         "Description3": "",
@@ -1522,14 +1362,14 @@
                         "Salesperson": 0,
                         "Driver": 0,
                         "DeliveryAddress": {
-                          "Address1": "",
+                          "Address1": "17600 New Hope Street",
                           "Address2": "",
                           "Address3": null,
                           "Address4": null,
                           "Address5": null,
-                          "City": "",
-                          "State": "",
-                          "PostalCode": "",
+                          "City": "Fountain Valley",
+                          "State": "CA",
+                          "PostalCode": "92708",
                           "Country": "USA",
                           "Note": null,
                           "Latitude": 0,
@@ -1537,15 +1377,15 @@
                         },
                         "Latitude": 0,
                         "Longitude": 0,
-                        "DeliveryInstructions": "",
+                        "DeliveryInstructions": "Call before delivery",
                         "DeliveryTicket": "Y",
                         "LastDeliveryDate": null,
                         "TermsCode": 0,
                         "StartCode": "",
                         "TaxClass": "T",
-                        "TaxClassDescription": "MN Sales Tax Calculated",
-                        "TaxGroup": "MN",
-                        "TaxGroupDescription": "Minnesota Tax Header Record",
+                        "TaxClassDescription": "CA Sales Tax Calculated",
+                        "TaxGroup": "CA",
+                        "TaxGroupDescription": "California Tax Header Record",
                         "HeatCapacity": 500,
                         "StartDate": null
                       },
