@@ -294,7 +294,7 @@
                             "type": "boolean",
                             "description": ""
                           },
-                          "IsCommercial": {
+                          "isCommercial": {
                             "type": "boolean",
                             "description": ""
                           },
@@ -470,7 +470,7 @@
                           "TaxGroup": null,
                           "TaxLicenseNumber": null,
                           "IsActive": true,
-                          "IsCommercial": true,
+                          "isCommercial": true,
                           "RunCode": 0,
                           "Locations": [
                             {
@@ -541,7 +541,7 @@
                           "TaxGroup": null,
                           "TaxLicenseNumber": null,
                           "IsActive": true,
-                          "IsCommercial": true,
+                          "isCommercial": true,
                           "RunCode": 0,
                           "Locations": [
                             {
@@ -910,7 +910,7 @@
                           "type": "boolean",
                           "description": ""
                         },
-                        "IsCompanyOwned": {
+                        "isCompanyOwned": {
                           "type": "boolean",
                           "description": ""
                         },
