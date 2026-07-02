@@ -509,9 +509,9 @@
                           "Contacts": [
                             {
                               "Title": null,
-                              "FirstName": "Cynthia",
+                              "FirstName": "",
                               "MiddleName": null,
-                              "LastName": "Soto",
+                              "LastName": "",
                               "Suffix": null,
                               "PrimaryEmailAddr": "cynthia.soto@cusoto.com",
                               "Cc": null,
