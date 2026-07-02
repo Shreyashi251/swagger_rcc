@@ -505,7 +505,7 @@
                           "CustomerId": "CUSOTO",
                           "BranchNumber": "A000",
                           "AccountNumber":"138",
-                          "Name": "Custom Oil Transport",
+                          "Name": "",
                           "Contacts": [
                             {
                               "Title": null,
