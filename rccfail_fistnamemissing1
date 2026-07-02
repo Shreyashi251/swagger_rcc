@@ -294,7 +294,7 @@
                             "type": "boolean",
                             "description": ""
                           },
-                          "isCommercial": {
+                          "IsCommercial": {
                             "type": "boolean",
                             "description": ""
                           },
@@ -433,6 +433,7 @@
                           "CustomerId": "WORTAN",
                           "BranchNumber": "A000",
                           "Name": "Worthington Tank Rentals",
+                          "AccountNumber":"137",
                           "Contacts": [
                             {
                               "Title": null,
@@ -470,7 +471,7 @@
                           "TaxGroup": null,
                           "TaxLicenseNumber": null,
                           "IsActive": true,
-                          "isCommercial": true,
+                          "IsCommercial": true,
                           "RunCode": 0,
                           "Locations": [
                             {
@@ -503,13 +504,14 @@
                           "Id": null,
                           "CustomerId": "CUSOTO",
                           "BranchNumber": "A000",
+                          "AccountNumber":"138",
                           "Name": "Custom Oil Transport",
                           "Contacts": [
                             {
                               "Title": null,
-                              "FirstName": "",
+                              "FirstName": "Cynthia",
                               "MiddleName": null,
-                              "LastName": "",
+                              "LastName": "Soto",
                               "Suffix": null,
                               "PrimaryEmailAddr": "cynthia.soto@cusoto.com",
                               "Cc": null,
@@ -541,7 +543,7 @@
                           "TaxGroup": null,
                           "TaxLicenseNumber": null,
                           "IsActive": true,
-                          "isCommercial": true,
+                          "IsCommercial": true,
                           "RunCode": 0,
                           "Locations": [
                             {
@@ -910,7 +912,7 @@
                           "type": "boolean",
                           "description": ""
                         },
-                        "isCompanyOwned": {
+                        "IsCompanyOwned": {
                           "type": "boolean",
                           "description": ""
                         },
