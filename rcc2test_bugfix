@@ -770,7 +770,7 @@
                     "value": {
                       "EquipmentBases": [
                         {
-                          "EquipmentId": "WTHGK055",
+                          "EquipmentId": "WTHGK0556",
                           "CustomerId": "WORTAN",
                           "AccountNo": 137,
                           "LocationNo": 1
@@ -986,7 +986,7 @@
                       "EquipmentWithWarnings": [],
                       "EquipmentList": null,
                       "Equipment": {
-                        "EquipmentId": "WTHGK055",
+                        "EquipmentId": "WTHGK0556",
                         "CustomerId": "WORTAN",
                         "AccountNo": 137,
                         "LocationNo": 1,
